@@ -1,0 +1,392 @@
+[
+ {
+  "Date": "Sep-01",
+  "Cost per Mb": 5292.39288459743,
+  "Cost per Genome": 95263071.9227537
+ },
+ {
+  "Date": "Mar-02",
+  "Cost per Mb": 3898.6354119859907,
+  "Cost per Genome": 70175437.41574784
+ },
+ {
+  "Date": "Sep-02",
+  "Cost per Mb": 3413.8011945854346,
+  "Cost per Genome": 61448421.502537824
+ },
+ {
+  "Date": "Mar-03",
+  "Cost per Mb": 2986.204670965579,
+  "Cost per Genome": 53751684.077380426
+ },
+ {
+  "Date": "Oct-03",
+  "Cost per Mb": 2230.9752350179665,
+  "Cost per Genome": 40157554.2303234
+ },
+ {
+  "Date": "Jan-04",
+  "Cost per Mb": 1598.9097892402337,
+  "Cost per Genome": 28780376.20632421
+ },
+ {
+  "Date": "Apr-04",
+  "Cost per Mb": 1135.6986744914357,
+  "Cost per Genome": 20442576.140845843
+ },
+ {
+  "Date": "Jul-04",
+  "Cost per Mb": 1107.4636519548915,
+  "Cost per Genome": 19934345.73518805
+ },
+ {
+  "Date": "Oct-04",
+  "Cost per Mb": 1028.8506757569978,
+  "Cost per Genome": 18519312.163625963
+ },
+ {
+  "Date": "Jan-05",
+  "Cost per Mb": 974.1649756563984,
+  "Cost per Genome": 17534969.561815172
+ },
+ {
+  "Date": "Apr-05",
+  "Cost per Mb": 897.7610798936241,
+  "Cost per Genome": 16159699.438085236
+ },
+ {
+  "Date": "Jul-05",
+  "Cost per Mb": 898.9013391332535,
+  "Cost per Genome": 16180224.104398562
+ },
+ {
+  "Date": "Oct-05",
+  "Cost per Mb": 766.7291218837078,
+  "Cost per Genome": 13801124.193906741
+ },
+ {
+  "Date": "Jan-06",
+  "Cost per Mb": 699.2032722876385,
+  "Cost per Genome": 12585658.901177494
+ },
+ {
+  "Date": "Apr-06",
+  "Cost per Mb": 651.8074733457719,
+  "Cost per Genome": 11732534.520223893
+ },
+ {
+  "Date": "Jul-06",
+  "Cost per Mb": 636.4064011735258,
+  "Cost per Genome": 11455315.221123463
+ },
+ {
+  "Date": "Oct-06",
+  "Cost per Mb": 581.9197978359964,
+  "Cost per Genome": 10474556.361047935
+ },
+ {
+  "Date": "Jan-07",
+  "Cost per Mb": 522.7077172068983,
+  "Cost per Genome": 9408738.909724168
+ },
+ {
+  "Date": "Apr-07",
+  "Cost per Mb": 502.61127606225165,
+  "Cost per Genome": 9047002.96912053
+ },
+ {
+  "Date": "Jul-07",
+  "Cost per Mb": 495.96345237787824,
+  "Cost per Genome": 8927342.142801808
+ },
+ {
+  "Date": "Oct-07",
+  "Cost per Mb": 397.08729936016084,
+  "Cost per Genome": 7147571.388482895
+ },
+ {
+  "Date": "Jan-08",
+  "Cost per Mb": 102.12733297689678,
+  "Cost per Genome": 3063819.9893069034
+ },
+ {
+  "Date": "Apr-08",
+  "Cost per Mb": 15.033135877421174,
+  "Cost per Genome": 1352982.2289679057
+ },
+ {
+  "Date": "Jul-08",
+  "Cost per Mb": 8.356443357889145,
+  "Cost per Genome": 752079.902210023
+ },
+ {
+  "Date": "Oct-08",
+  "Cost per Mb": 3.805578446865605,
+  "Cost per Genome": 342502.06021790445
+ },
+ {
+  "Date": "Jan-09",
+  "Cost per Mb": 2.5859493082562675,
+  "Cost per Genome": 232735.43774306407
+ },
+ {
+  "Date": "Apr-09",
+  "Cost per Mb": 1.7190399896920068,
+  "Cost per Genome": 154713.5990722806
+ },
+ {
+  "Date": "Jul-09",
+  "Cost per Mb": 1.2007237715317063,
+  "Cost per Genome": 108065.13943785356
+ },
+ {
+  "Date": "Oct-09",
+  "Cost per Mb": 0.7814814936017647,
+  "Cost per Genome": 70333.33442415882
+ },
+ {
+  "Date": "Jan-10",
+  "Cost per Mb": 0.5197141425490287,
+  "Cost per Genome": 46774.272829412585
+ },
+ {
+  "Date": "Apr-10",
+  "Cost per Mb": 0.3501337726948461,
+  "Cost per Genome": 31512.039542536146
+ },
+ {
+  "Date": "Jul-10",
+  "Cost per Mb": 0.34583289708415843,
+  "Cost per Genome": 31124.960737574256
+ },
+ {
+  "Date": "Oct-10",
+  "Cost per Mb": 0.32324148606056363,
+  "Cost per Genome": 29091.733745450725
+ },
+ {
+  "Date": "Jan-11",
+  "Cost per Mb": 0.23291980278884258,
+  "Cost per Genome": 20962.782250995835
+ },
+ {
+  "Date": "Apr-11",
+  "Cost per Mb": 0.18568903457357452,
+  "Cost per Genome": 16712.013111621705
+ },
+ {
+  "Date": "Jul-11",
+  "Cost per Mb": 0.11663259976511531,
+  "Cost per Genome": 10496.933978860377
+ },
+ {
+  "Date": "Oct-11",
+  "Cost per Mb": 0.08603820116283417,
+  "Cost per Genome": 7743.438104655075
+ },
+ {
+  "Date": "Jan-12",
+  "Cost per Mb": 0.08518021153621447,
+  "Cost per Genome": 7666.219038259302
+ },
+ {
+  "Date": "Apr-12",
+  "Cost per Mb": 0.06556991817197015,
+  "Cost per Genome": 5901.2926354773135
+ },
+ {
+  "Date": "Jul-12",
+  "Cost per Mb": 0.06649690377146789,
+  "Cost per Genome": 5984.72133943211
+ },
+ {
+  "Date": "Oct-12",
+  "Cost per Mb": 0.07353721420782572,
+  "Cost per Genome": 6618.349278704315
+ },
+ {
+  "Date": "Jan-13",
+  "Cost per Mb": 0.06301495642398491,
+  "Cost per Genome": 5671.346078158642
+ },
+ {
+  "Date": "Apr-13",
+  "Cost per Mb": 0.06364124842290947,
+  "Cost per Genome": 5550.26483952985
+ },
+ {
+  "Date": "Jul-13",
+  "Cost per Mb": 0.06166960932810945,
+  "Cost per Genome": 5550.26483952985
+ },
+ {
+  "Date": "Oct-13",
+  "Cost per Mb": 0.0566230780616118,
+  "Cost per Genome": 5096.077025545062
+ },
+ {
+  "Date": "Jan-14",
+  "Cost per Mb": 0.04453452221231721,
+  "Cost per Genome": 4008.1069991085487
+ },
+ {
+  "Date": "Apr-14",
+  "Cost per Mb": 0.054672187101192614,
+  "Cost per Genome": 4920.496839107335
+ },
+ {
+  "Date": "Jul-14",
+  "Cost per Mb": 0.05449830186754514,
+  "Cost per Genome": 4904.847168079063
+ },
+ {
+  "Date": "Oct-14",
+  "Cost per Mb": 0.06367656138373105,
+  "Cost per Genome": 5730.890524535795
+ },
+ {
+  "Date": "Jan-15",
+  "Cost per Mb": 0.04410930868952066,
+  "Cost per Genome": 3969.8377820568594
+ },
+ {
+  "Date": "Apr-15",
+  "Cost per Mb": 0.04678652563955651,
+  "Cost per Genome": 4210.7873075600855
+ },
+ {
+  "Date": "Jul-15",
+  "Cost per Mb": 0.015147113483073554,
+  "Cost per Genome": 1363.2402134766198
+ },
+ {
+  "Date": "Oct-15",
+  "Cost per Mb": 0.013836764641337628,
+  "Cost per Genome": 1245.3088177203865
+ },
+ {
+  "Date": "May-16",
+  "Cost per Mb": 0.013063824195886144,
+  "Cost per Genome": 1175.744177629753
+ },
+ {
+  "Date": "Aug-16",
+  "Cost per Mb": 0.01675299543177889,
+  "Cost per Genome": 1507.7695888601002
+ },
+ {
+  "Date": "Nov-16",
+  "Cost per Mb": 0.01506433630818145,
+  "Cost per Genome": 1355.7902677363306
+ },
+ {
+  "Date": "Feb-17",
+  "Cost per Mb": 0.011282049689027051,
+  "Cost per Genome": 1015.3844720124347
+ },
+ {
+  "Date": "May-17",
+  "Cost per Mb": 0.014815551970214213,
+  "Cost per Genome": 1333.3996773192791
+ },
+ {
+  "Date": "Aug-17",
+  "Cost per Mb": 0.01259954297997196,
+  "Cost per Genome": 1133.9588681974765
+ },
+ {
+  "Date": "Nov-17",
+  "Cost per Mb": 0.020489749777476394,
+  "Cost per Genome": 1844.0774799728754
+ },
+ {
+  "Date": "Feb-18",
+  "Cost per Mb": 0.013691947148162426,
+  "Cost per Genome": 1232.2752433346184
+ },
+ {
+  "Date": "May-18",
+  "Cost per Mb": 0.016257025645980423,
+  "Cost per Genome": 1463.1323081382382
+ },
+ {
+  "Date": "Aug-18",
+  "Cost per Mb": 0.016303130628325602,
+  "Cost per Genome": 1467.2817565493042
+ },
+ {
+  "Date": "Nov-18",
+  "Cost per Mb": 0.015463140328597889,
+  "Cost per Genome": 1391.68262957381
+ },
+ {
+  "Date": "Feb-19",
+  "Cost per Mb": 0.011034842980739264,
+  "Cost per Genome": 993.1358682665337
+ },
+ {
+  "Date": "May-19",
+  "Cost per Mb": 0.006736850780694,
+  "Cost per Genome": 606.31657026246
+ },
+ {
+  "Date": "Aug-19",
+  "Cost per Mb": 0.010468294653730979,
+  "Cost per Genome": 942.1465188357881
+ },
+ {
+  "Date": "Nov-19",
+  "Cost per Mb": 0.007726383316083286,
+  "Cost per Genome": 695.3744984474957
+ },
+ {
+  "Date": "Feb-20",
+  "Cost per Mb": 0.007162404263288271,
+  "Cost per Genome": 644.6163836959444
+ },
+ {
+  "Date": "May-20",
+  "Cost per Mb": 0.007795134152767314,
+  "Cost per Genome": 701.5620737490583
+ },
+ {
+  "Date": "Aug-20",
+  "Cost per Mb": 0.007650729136987875,
+  "Cost per Genome": 688.5656223289088
+ },
+ {
+  "Date": "Nov-20",
+  "Cost per Mb": 0.00568854202635435,
+  "Cost per Genome": 511.96878237189145
+ },
+ {
+  "Date": "Feb-21",
+  "Cost per Mb": 0.009453791792788484,
+  "Cost per Genome": 850.8412613509635
+ },
+ {
+  "Date": "May-21",
+  "Cost per Mb": 0.0050449572464572245,
+  "Cost per Genome": 454.04615218115026
+ },
+ {
+  "Date": "Aug-21",
+  "Cost per Mb": 0.006246392948047957,
+  "Cost per Genome": 562.1753653243161
+ },
+ {
+  "Date": "Nov-21",
+  "Cost per Mb": 0.006135518030494901,
+  "Cost per Genome": 552.1966227445411
+ },
+ {
+  "Date": "Feb-22",
+  "Cost per Mb": 0.005829163152286766,
+  "Cost per Genome": 524.6246837058089
+ },
+ {
+  "Date": "May-22",
+  "Cost per Mb": 0.005829163152286766,
+  "Cost per Genome": 524.6246837058089
+ }
+]

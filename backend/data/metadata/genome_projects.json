@@ -1,0 +1,72 @@
+[
+ {
+  "dataset": "table_name",
+  "Column2": "title",
+  "Column3": "source_name",
+  "Column4": "source_url",
+  "Column5": "description",
+  "Column6": "last_updated",
+  "Column7": "raw_data_file",
+  "Column8": "processed_data_file",
+  "Column9": "citation",
+  "columns": "column_name",
+  "Column16": "data_type",
+  "Column17": "description",
+  "Column18": "unit",
+  "Column19": "is_processed"
+ },
+ {
+  "Column9": "authors",
+  "Column10": "title",
+  "Column11": "journal",
+  "Column12": "year",
+  "Column13": "doi",
+  "Column14": "url"
+ },
+ {
+  "dataset": "genome_projects",
+  "Column2": "National Genome Projects Across the Globe",
+  "Column3": "National Genome Projects Dataset",
+  "Column4": "https:\/\/humgenomics.biomedcentral.com\/articles\/10.1186\/s40246-021-00315-6",
+  "Column5": "A comprehensive dataset of national genome projects worldwide, including their status (active\/inactive). The dataset provides geographical distribution of genome sequencing initiatives globally.",
+  "Column6": "2024-04-29",
+  "Column7": "Data\/raw\/genomics\/genome_projects_data\/40246_2021_315_MOESM1_ESM.xlsx",
+  "Column8": "BiD_website\/backend\/data\/processed\/genomics\/genome_projects.csv",
+  "Column9": "Anja Kovanda, Ana Nyasha Zimani, Borut Peterlin",
+  "Column10": "How to design a national genomic project—a systematic review of active projects",
+  "Column11": "Human Genomics",
+  "Column12": "2021",
+  "Column13": "10.1186\/s40246-021-00315-6",
+  "Column14": "https:\/\/humgenomics.biomedcentral.com\/articles\/10.1186\/s40246-021-00315-6",
+  "columns": "country",
+  "Column16": "string",
+  "Column17": "Name of the country",
+  "Column19": false
+ },
+ {
+  "columns": "latitude",
+  "Column16": "float",
+  "Column17": "Latitude coordinate of the country's centroid",
+  "Column18": "degrees",
+  "Column19": true
+ },
+ {
+  "columns": "longitude",
+  "Column16": "float",
+  "Column17": "Longitude coordinate of the country's centroid",
+  "Column18": "degrees",
+  "Column19": true
+ },
+ {
+  "columns": "project_status",
+  "Column16": "string",
+  "Column17": "Status of the genome project (active\/inactive)",
+  "Column19": false
+ },
+ {
+  "columns": "is_h3africa",
+  "Column16": "boolean",
+  "Column17": "Whether the project is part of H3Africa initiative",
+  "Column19": false
+ }
+]

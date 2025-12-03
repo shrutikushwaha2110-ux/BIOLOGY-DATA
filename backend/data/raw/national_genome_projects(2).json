@@ -1,0 +1,263 @@
+[
+ {
+  "Project Name": 100,
+  "Country\/Region": "000 Genomes Project",
+  "Start Year": "United Kingdom",
+  "Status": 2013,
+  "Target Genomes": "Completed",
+  "Official Website": 100000,
+  "Key Publication\/Press Release": "https:\/\/www.genomicsengland.co.uk\/",
+  "Notes": "https:\/\/pubmed.ncbi.nlm.nih.gov\/30301859\/",
+  "Column9": "Now part of NHS Genomic Medicine Service"
+ },
+ {
+  "Project Name": "All of Us Research Program",
+  "Country\/Region": "United States",
+  "Start Year": 2018,
+  "Status": "Ongoing",
+  "Target Genomes": 1000000,
+  "Official Website": "https:\/\/allofus.nih.gov\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/31395889\/",
+  "Notes": "Diverse ancestry focus"
+ },
+ {
+  "Project Name": "China Precision Medicine Initiative",
+  "Country\/Region": "China",
+  "Start Year": 2016,
+  "Status": "Ongoing",
+  "Target Genomes": 100000000,
+  "Official Website": "http:\/\/www.most.gov.cn\/eng\/",
+  "Key Publication\/Press Release": "https:\/\/www.nature.com\/news\/china-aims-to-sequence-100-million-genomes-in-precision-medicine-push-1.19397",
+  "Notes": "Ambitious multi-decade"
+ },
+ {
+  "Project Name": "Tohoku Medical Megabank Project",
+  "Country\/Region": "Japan",
+  "Start Year": 2012,
+  "Status": "Ongoing",
+  "Target Genomes": 150000,
+  "Official Website": "https:\/\/www.megabank.tohoku.ac.jp\/english\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/26564998\/",
+  "Notes": "Post-disaster health focus"
+ },
+ {
+  "Project Name": "Korean Genome Project",
+  "Country\/Region": "South Korea",
+  "Start Year": 2015,
+  "Status": "Ongoing",
+  "Target Genomes": 10000,
+  "Official Website": "https:\/\/www.kobic.re.kr\/eng\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/30479341\/",
+  "Notes": "National reference genome"
+ },
+ {
+  "Project Name": "Genome India Project",
+  "Country\/Region": "India",
+  "Start Year": 2020,
+  "Status": "Ongoing",
+  "Target Genomes": 10000,
+  "Official Website": "https:\/\/dbtindia.gov.in\/schemes-programmes\/research-development\/medical-biotechnology\/genome-india",
+  "Key Publication\/Press Release": "https:\/\/www.nature.com\/articles\/nindia.2020.18",
+  "Notes": "National population genomics"
+ },
+ {
+  "Project Name": "Estonian Biobank",
+  "Country\/Region": "Estonia",
+  "Start Year": 2000,
+  "Status": "Ongoing",
+  "Target Genomes": 200000,
+  "Official Website": "https:\/\/www.geenivaramu.ee\/en",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/29489754\/",
+  "Notes": "High national coverage"
+ },
+ {
+  "Project Name": "Saudi Human Genome Program",
+  "Country\/Region": "Saudi Arabia",
+  "Start Year": 2013,
+  "Status": "Ongoing",
+  "Target Genomes": 100000,
+  "Official Website": "https:\/\/www.saudigenomeproject.org\/",
+  "Key Publication\/Press Release": "https:\/\/www.nature.com\/articles\/nature.2015.17241",
+  "Notes": "Focus on rare disease"
+ },
+ {
+  "Project Name": "Taiwan Biobank",
+  "Country\/Region": "Taiwan",
+  "Start Year": 2012,
+  "Status": "Ongoing",
+  "Target Genomes": 200000,
+  "Official Website": "https:\/\/www.twbiobank.org.tw\/new_web_en\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/29489754\/",
+  "Notes": "Population-wide health"
+ },
+ {
+  "Project Name": "GenomeAsia 100K",
+  "Country\/Region": "Pan-Asia",
+  "Start Year": 2016,
+  "Status": "Ongoing",
+  "Target Genomes": 100000,
+  "Official Website": "https:\/\/genomeasia100k.org\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/31819208\/",
+  "Notes": "Pan-Asian diversity"
+ },
+ {
+  "Project Name": "H3Africa",
+  "Country\/Region": "Pan-Africa",
+  "Start Year": 2010,
+  "Status": "Ongoing",
+  "Target Genomes": 50000,
+  "Official Website": "https:\/\/h3africa.org\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/24186099\/",
+  "Notes": "African population genomics"
+ },
+ {
+  "Project Name": "deCODE Genetics",
+  "Country\/Region": "Iceland",
+  "Start Year": 1996,
+  "Status": "Ongoing",
+  "Target Genomes": 160000,
+  "Official Website": "https:\/\/www.decode.com\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/28273065\/",
+  "Notes": "Nearly entire population"
+ },
+ {
+  "Project Name": "SweGen",
+  "Country\/Region": "Sweden",
+  "Start Year": 2014,
+  "Status": "Completed",
+  "Target Genomes": 1000,
+  "Official Website": "https:\/\/www.swefreq.nbis.se\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/27872168\/",
+  "Notes": "Swedish reference genomes"
+ },
+ {
+  "Project Name": "FinnGen",
+  "Country\/Region": "Finland",
+  "Start Year": 2017,
+  "Status": "Ongoing",
+  "Target Genomes": 500000,
+  "Official Website": "https:\/\/www.finngen.fi\/en",
+  "Key Publication\/Press Release": "https:\/\/www.finngen.fi\/en\/publications",
+  "Notes": "Combines biobank and WGS"
+ },
+ {
+  "Project Name": "France Génomique",
+  "Country\/Region": "France",
+  "Start Year": 2011,
+  "Status": "Ongoing",
+  "Target Genomes": 50000,
+  "Official Website": "https:\/\/www.france-genomique.org\/",
+  "Key Publication\/Press Release": "https:\/\/www.france-genomique.org\/publications\/",
+  "Notes": "National infrastructure"
+ },
+ {
+  "Project Name": "Genomes for Life (GCAT)",
+  "Country\/Region": "Spain",
+  "Start Year": 2012,
+  "Status": "Ongoing",
+  "Target Genomes": 20000,
+  "Official Website": "https:\/\/www.genomesforlife.com\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/27192110\/",
+  "Notes": "Catalonia-based",
+  "Column9": " national scope"
+ },
+ {
+  "Project Name": 100,
+  "Country\/Region": "000 Genomes Project (Turkey)",
+  "Start Year": "Turkey",
+  "Status": 2017,
+  "Target Genomes": "Ongoing",
+  "Official Website": 100000,
+  "Key Publication\/Press Release": "https:\/\/www.tubitak.gov.tr\/en\/news\/100000-genomes-project",
+  "Notes": "https:\/\/www.tubitak.gov.tr\/en\/news\/100000-genomes-project",
+  "Column9": "National rare disease focus"
+ },
+ {
+  "Project Name": "Qatar Genome Programme",
+  "Country\/Region": "Qatar",
+  "Start Year": 2015,
+  "Status": "Ongoing",
+  "Target Genomes": 60000,
+  "Official Website": "https:\/\/qatargenome.org.qa\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/32424312\/",
+  "Notes": "Middle East reference"
+ },
+ {
+  "Project Name": "Iranome",
+  "Country\/Region": "Iran",
+  "Start Year": 2016,
+  "Status": "Completed",
+  "Target Genomes": 800,
+  "Official Website": "https:\/\/www.iranome.ir\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/28920899\/",
+  "Notes": "Iranian reference genome"
+ },
+ {
+  "Project Name": "Israel National Biobank (MIDGAM)",
+  "Country\/Region": "Israel",
+  "Start Year": 2012,
+  "Status": "Ongoing",
+  "Target Genomes": 100000,
+  "Official Website": "https:\/\/www.midgam.org.il\/",
+  "Key Publication\/Press Release": "https:\/\/www.midgam.org.il\/",
+  "Notes": "Biobank with WGS"
+ },
+ {
+  "Project Name": "Brazilian Initiative on Precision Medicine (BIPMed)",
+  "Country\/Region": "Brazil",
+  "Start Year": 2015,
+  "Status": "Ongoing",
+  "Target Genomes": 4000,
+  "Official Website": "https:\/\/bipmed.org\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/26559406\/",
+  "Notes": "Brazilian reference"
+ },
+ {
+  "Project Name": "Mexican Genome Diversity Project",
+  "Country\/Region": "Mexico",
+  "Start Year": 2009,
+  "Status": "Completed",
+  "Target Genomes": 300,
+  "Official Website": "https:\/\/www.inmegen.gob.mx\/",
+  "Key Publication\/Press Release": "https:\/\/pubmed.ncbi.nlm.nih.gov\/20418488\/",
+  "Notes": "Mexican reference genome"
+ },
+ {
+  "Project Name": "Argentine Genome Project",
+  "Country\/Region": "Argentina",
+  "Start Year": 2017,
+  "Status": "Ongoing",
+  "Target Genomes": 1000,
+  "Official Website": "https:\/\/www.argentinagenome.org\/",
+  "Key Publication\/Press Release": "https:\/\/www.argentinagenome.org\/publications\/",
+  "Notes": "National reference"
+ },
+ {
+  "Project Name": "Uruguay Genome Project",
+  "Country\/Region": "Uruguay",
+  "Start Year": 2018,
+  "Status": "Ongoing",
+  "Target Genomes": 500,
+  "Official Website": "https:\/\/www.gub.uy\/ministerio-salud-publica\/",
+  "Key Publication\/Press Release": "https:\/\/www.gub.uy\/ministerio-salud-publica\/",
+  "Notes": "Pilot phase "
+ },
+ {
+  "Project Name": "Bangladesh Reference Genome Project\tBangladesh\t2017\tOngoing\t1000+\thttps:\/\/www.icddrb.org\/\thttps:\/\/pubmed.ncbi.nlm.nih.gov\/31249310\/\tFocus on Bangladeshi population diversity"
+ },
+ {
+  "Project Name": "Pakistan Human Genome Project\tPakistan\t2017\tOngoing\t1000+\thttps:\/\/www.comsats.edu.pk\/\thttps:\/\/pubmed.ncbi.nlm.nih.gov\/31249310\/\tNational reference genome effort"
+ },
+ {
+  "Project Name": "SG10K Project\tSingapore\t2017\tOngoing\t10000\thttps:\/\/www.npm.sg\/sg10k\/\thttps:\/\/pubmed.ncbi.nlm.nih.gov\/33563988\/\tSingaporean population reference"
+ },
+ {
+  "Project Name": "Malaysian Genome Project\tMalaysia\t2010\tOngoing\t1000+\thttps:\/\/www.mgi.gov.my\/\thttps:\/\/pubmed.ncbi.nlm.nih.gov\/31249310\/\tNational reference genome"
+ },
+ {
+  "Project Name": "Nigerian 100K Genome Project\tNigeria\t2021\tOngoing\t100000\thttps:\/\/www.54gene.com\/\thttps:\/\/www.nature.com\/articles\/d41586-019-02141-0\tFocus on African diversity"
+ },
+ {
+  "Project Name": "Southern African Human Genome Programme (SAHGP)\tSouth Africa\t2011\tOngoing\t1000+\thttps:\/\/www.sahgp.sanbi.ac.za\/\thttps:\/\/pubmed.ncbi.nlm.nih.gov\/26162940\/\tNational reference genome"
+ }
+]

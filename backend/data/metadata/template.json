@@ -1,0 +1,28 @@
+[
+ {
+  "dataset": "table_name",
+  "Column2": "source_name",
+  "Column3": "source_url",
+  "Column4": "description",
+  "Column5": "last_updated",
+  "Column6": "raw_data_file",
+  "Column7": "processed_data_file",
+  "Column8": "citation",
+  "columns": "column_name",
+  "Column15": "data_type",
+  "Column16": "description",
+  "Column17": "unit",
+  "Column18": "is_processed"
+ },
+ {
+  "Column8": "authors",
+  "Column9": "title",
+  "Column10": "journal",
+  "Column11": "year",
+  "Column12": "doi",
+  "Column13": "url"
+ },
+ {
+  "Column18": false
+ }
+]

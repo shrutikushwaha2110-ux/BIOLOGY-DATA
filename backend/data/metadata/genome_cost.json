@@ -1,0 +1,59 @@
+[
+ {
+  "dataset": "table_name",
+  "Column2": "title",
+  "Column3": "source_name",
+  "Column4": "source_url",
+  "Column5": "description",
+  "Column6": "last_updated",
+  "Column7": "raw_data_file",
+  "Column8": "processed_data_file",
+  "Column9": "citation",
+  "columns": "column_name",
+  "Column16": "data_type",
+  "Column17": "description",
+  "Column18": "unit",
+  "Column19": "is_processed"
+ },
+ {
+  "Column9": "authors",
+  "Column10": "title",
+  "Column11": "journal",
+  "Column12": "year",
+  "Column13": "doi",
+  "Column14": "url"
+ },
+ {
+  "dataset": "genome_cost",
+  "Column2": "Genome Sequencing Costs",
+  "Column3": "NHGRI",
+  "Column4": "https:\/\/www.genome.gov\/about-genomics\/fact-sheets\/DNA-Sequencing-Costs-Data",
+  "Column5": "This dataset tracks the historical cost of sequencing a human genome, from the early days of the Human Genome Project to the present. It shows the dramatic reduction in sequencing costs over time, from millions of dollars to thousands, highlighting the technological advancements that have made genomic research more accessible. The data is collected by the National Human Genome Research Institute (NHGRI) and represents a key metric in the evolution of genomic technologies.",
+  "Column6": "2022-05-01",
+  "Column7": "Sequencing_Cost_Data_Table_May2022_NHGRI.xls",
+  "Column8": "processed_genome_cost.csv",
+  "Column9": "National Human Genome Research Institute",
+  "Column10": "The Cost of Sequencing a Human Genome",
+  "Column11": "NHGRI Fact Sheet",
+  "Column12": "2022",
+  "Column14": "https:\/\/www.genome.gov\/about-genomics\/fact-sheets\/Sequencing-Human-Genome-cost",
+  "columns": "date",
+  "Column16": "DATE",
+  "Column17": "Date of the cost measurement",
+  "Column19": true
+ },
+ {
+  "columns": "cost_per_genome",
+  "Column16": "FLOAT",
+  "Column17": "Cost per genome in USD",
+  "Column18": "USD",
+  "Column19": true
+ },
+ {
+  "columns": "cost_per_megabase",
+  "Column16": "FLOAT",
+  "Column17": "Cost per megabase of DNA sequence in USD",
+  "Column18": "USD",
+  "Column19": true
+ }
+]

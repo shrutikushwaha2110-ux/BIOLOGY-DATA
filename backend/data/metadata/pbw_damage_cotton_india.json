@@ -1,0 +1,79 @@
+[
+ {
+  "dataset": "table_name",
+  "Column2": "source_name",
+  "Column3": "source_url",
+  "Column4": "title",
+  "Column5": "description",
+  "Column6": "last_updated",
+  "Column7": "raw_data_file",
+  "Column8": "processed_data_file",
+  "Column9": "citation",
+  "columns": "column_name",
+  "Column16": "data_type",
+  "Column17": "description",
+  "Column18": "unit",
+  "Column19": "is_processed"
+ },
+ {
+  "Column9": "authors",
+  "Column10": "title",
+  "Column11": "journal",
+  "Column12": "year",
+  "Column13": "doi",
+  "Column14": "url"
+ },
+ {
+  "dataset": "pbw_damage_cotton_india",
+  "Column2": "Kumar et al, 2025",
+  "Column3": "https:\/\/doi.org\/10.1038\/s41598-025-89575-z",
+  "Column4": "Damage caused by Pink Bollworm to Bt and Non-Bt cotton in India",
+  "Column5": "The data was obtained from various agri stations.",
+  "Column6": "2025-05-12",
+  "Column7": "Data\/raw\/agriculture\/PBW_resistance_damage_Bt_cotton.xls",
+  "Column8": "BiD_website\/backend\/data\/processed\/agriculture\/pbw_damage_cotton_india.csv",
+  "Column9": "Kumar, R., Bhede, B.V., Paul, D. et al.",
+  "Column10": "Resistance development in pink bollworm (Pectinophora Gossypiella Saunders) against Bt cotton and its' establishment as mid season pest in India.",
+  "Column11": "Scientific Reports",
+  "Column12": "2025",
+  "Column13": "10.1038\/s41598-025-89575-z",
+  "Column14": "https:\/\/doi.org\/10.1038\/s41598-025-89575-z",
+  "columns": "year",
+  "Column16": "integer",
+  "Column17": "Year of observation",
+  "Column19": true
+ },
+ {
+  "columns": "zone",
+  "Column16": "string",
+  "Column17": "Geographical zone in India (Central, South, North)",
+  "Column19": true
+ },
+ {
+  "columns": "type",
+  "Column16": "string",
+  "Column17": "Cotton type: Bt or Non-Bt",
+  "Column19": true
+ },
+ {
+  "columns": "mean_damage",
+  "Column16": "float",
+  "Column17": "Mean percentage of boll damage caused by PBW",
+  "Column18": "%",
+  "Column19": true
+ },
+ {
+  "columns": "min_damage",
+  "Column16": "float",
+  "Column17": "Minimum percentage of boll damage observed",
+  "Column18": "%",
+  "Column19": true
+ },
+ {
+  "columns": "max_damage",
+  "Column16": "float",
+  "Column17": "Maximum percentage of boll damage observed",
+  "Column18": "%",
+  "Column19": true
+ }
+]

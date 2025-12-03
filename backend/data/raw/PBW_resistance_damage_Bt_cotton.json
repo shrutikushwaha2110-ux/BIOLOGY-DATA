@@ -1,0 +1,200 @@
+[
+ {
+  "Damage (%) due to PBW in Central Zone": "Year",
+  "Column2": "Bt (Range)",
+  "Column3": "N-Bt (Range)",
+  "Damage (%) due to PBW in South Zone": "Year",
+  "Column5": "Bt (Range)",
+  "Column6": "N-Bt (Range)",
+  "Damage (%) due to PBW in North zone": "Year",
+  "Column8": "Bt (Range)",
+  "Column9": "N-Bt (Range)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2007,
+  "Column2": "0.61 (0.00–1.22)",
+  "Column3": "5.58 (0.00–17.48)",
+  "Damage (%) due to PBW in South Zone": 2007,
+  "Column5": "4.84 (4.84)",
+  "Column6": "22.72 (22.72)",
+  "Damage (%) due to PBW in North zone": 2007,
+  "Column8": "-",
+  "Column9": "-"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2008,
+  "Column2": "1.05 (0.00–2.10)",
+  "Column3": "5.42 (0.00–13.23)",
+  "Damage (%) due to PBW in South Zone": 2008,
+  "Column5": "3.33 (3.33)",
+  "Column6": "11.05 (11.05)",
+  "Damage (%) due to PBW in North zone": 2008,
+  "Column8": "-",
+  "Column9": "-"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2009,
+  "Column2": "1.88 (0.00–3.76)",
+  "Column3": "6.43 (0.00–13.25)",
+  "Damage (%) due to PBW in South Zone": 2009,
+  "Column5": "3.20 (3.20)",
+  "Column6": "9.38 (9.38)",
+  "Damage (%) due to PBW in North zone": 2009,
+  "Column8": "-",
+  "Column9": "-"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2010,
+  "Column2": "0.49 (0.00–1.46)",
+  "Column3": "10.05 (0.00–22.56)",
+  "Damage (%) due to PBW in South Zone": 2010,
+  "Column5": "2.37 (2.37)",
+  "Column6": "9.89 (9.89)",
+  "Damage (%) due to PBW in North zone": 2010,
+  "Column8": "-",
+  "Column9": "-"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2011,
+  "Column2": "0.73 (0.00–2.18)",
+  "Column3": "12.72 (0.00–31.00)",
+  "Damage (%) due to PBW in South Zone": 2011,
+  "Column5": "10.61 (2.11–19.10)",
+  "Column6": "33.73 (7.32–60.14)",
+  "Damage (%) due to PBW in North zone": 2011,
+  "Column8": "-",
+  "Column9": "-"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2012,
+  "Column2": "2.01 (0.00–4.25)",
+  "Column3": "10.63 (0.00–21.00)",
+  "Damage (%) due to PBW in South Zone": 2012,
+  "Column5": "4.08 (2.65–5.50)",
+  "Column6": "10.66 (10.45–10.87)",
+  "Damage (%) due to PBW in North zone": 2012,
+  "Column8": "0.00 (0.00)",
+  "Column9": "9.28 (6.74–10.66)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2013,
+  "Column2": "4.58 (1.04–7.50)",
+  "Column3": "10.65 (0.00–16.53)",
+  "Damage (%) due to PBW in South Zone": 2013,
+  "Column5": "3.20 (2.25–4.15)",
+  "Column6": "15.20 (5.86–24.54)",
+  "Damage (%) due to PBW in North zone": 2013,
+  "Column8": "0.00 (0.00)",
+  "Column9": "12.52 (10.60–14.17)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2014,
+  "Column2": "5.83 (0.94–10.40)",
+  "Column3": "11.24 (0.00–18.34)",
+  "Damage (%) due to PBW in South Zone": 2014,
+  "Column5": "4.72 (1.89–7.54)",
+  "Column6": "20.57 (4.95–36.18)",
+  "Damage (%) due to PBW in North zone": 2014,
+  "Column8": "0.00 (0.00)",
+  "Column9": "16.26 (15.95–16.55)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2015,
+  "Column2": "10.03 (1.08–22.75)",
+  "Column3": "16.04 (0.00–31.42)",
+  "Damage (%) due to PBW in South Zone": 2015,
+  "Column5": "6.57 (5.00–8.13)",
+  "Column6": "29.06 (14.70–43.42)",
+  "Damage (%) due to PBW in North zone": 2015,
+  "Column8": "0.00 (0.00)",
+  "Column9": "18.84 (16.88–22.30)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2016,
+  "Column2": "13.20 (1.33–20.40)",
+  "Column3": "24.32 (0.00–42.00)",
+  "Damage (%) due to PBW in South Zone": 2016,
+  "Column5": "8.20 (4.25–12.14)",
+  "Column6": "34.10 (11.35–56.85)",
+  "Damage (%) due to PBW in North zone": 2016,
+  "Column8": "0.00 (0.00)",
+  "Column9": "4.32 (1.50–7.43)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2017,
+  "Column2": "24.58 (0.88–51.00)",
+  "Column3": "26.08 (0.31–54.00)",
+  "Damage (%) due to PBW in South Zone": 2017,
+  "Column5": "34.69 (5.23–64.15)",
+  "Column6": "41.37 (9.40–73.33)",
+  "Damage (%) due to PBW in North zone": 2017,
+  "Column8": "0.00 (0.00)",
+  "Column9": "6.35 (5.38–7.53)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2018,
+  "Column2": "15.10 (1.00–32.33)",
+  "Column3": "18.70 (3.33–37.37)",
+  "Damage (%) due to PBW in South Zone": 2018,
+  "Column5": "26.42 (5.88–62.12)",
+  "Column6": "32.57 (9.39–70.00)",
+  "Damage (%) due to PBW in North zone": 2018,
+  "Column8": "0.95 (0.00–3.78)",
+  "Column9": "8.49 (5.10–15.33)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2019,
+  "Column2": "15.34 (2.14–27.13)",
+  "Column3": "19.76 (0.00–33.53)",
+  "Damage (%) due to PBW in South Zone": 2019,
+  "Column5": "15.57 (5.88–28.54)",
+  "Column6": "24.49 (6.10–50.33)",
+  "Damage (%) due to PBW in North zone": 2019,
+  "Column8": "2.92 (0.00–8.00)",
+  "Column9": "8.32 (2.37–12.42)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2020,
+  "Column2": "17.19 (6.00–30.00)",
+  "Column3": "23.37 (0.00–48.00)",
+  "Damage (%) due to PBW in South Zone": 2020,
+  "Column5": "18.08 (9.92–30.10)",
+  "Column6": "23.34 (14.60–37.33)",
+  "Damage (%) due to PBW in North zone": 2020,
+  "Column8": "2.63 (0.00–7.50)",
+  "Column9": "9.59 (4.21–15.00)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2021,
+  "Column2": "23.20 (6.32–41.00)",
+  "Column3": "26.39 (0.00–53.00)",
+  "Damage (%) due to PBW in South Zone": 2021,
+  "Column5": "20.19 (3.48–45.00)",
+  "Column6": "33.10 (15.21–68.75)",
+  "Damage (%) due to PBW in North zone": 2021,
+  "Column8": "25.10 (20.50–29.67)",
+  "Column9": "38.17 (12.86–76.00)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2022,
+  "Column2": "9.07 (5.00–13.33)",
+  "Column3": "11.71 (0.00–18.15)",
+  "Damage (%) due to PBW in South Zone": 2022,
+  "Column5": "23.90 (9.98–50.82)",
+  "Column6": "32.30 (11.84–65.83)",
+  "Damage (%) due to PBW in North zone": 2022,
+  "Column8": "10.37 (5.83–16.39)",
+  "Column9": "10.87 (3.00–15.33)"
+ },
+ {
+  "Damage (%) due to PBW in Central Zone": 2023,
+  "Column2": "13.30 (3.33–23.32)",
+  "Column3": "18.37 (8.80–23.70)",
+  "Damage (%) due to PBW in South Zone": 2023,
+  "Column5": "18.63 (5.87–29.10)",
+  "Column6": "20.45 (4.98–37.80)",
+  "Damage (%) due to PBW in North zone": 2023,
+  "Column8": "20.65 (10.00–32.50)",
+  "Column9": "20.35 (10.00–24.50)"
+ }
+]

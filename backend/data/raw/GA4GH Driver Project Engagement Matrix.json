@@ -1,0 +1,4458 @@
+{
+"MASTER IMPLEMENTATION TRACKING":[
+ {
+  "Tool name": "AoU Researcher Workbench",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "All of Us Research Program",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.researchallofus.org\/data-tools\/workbench\/"
+ },
+ {
+  "Tool name": "AoU Researcher Workbench",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Organization": "All of Us Research Program",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.researchallofus.org\/data-tools\/workbench\/"
+ },
+ {
+  "Tool name": "AoU Researcher Workbench",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "All of Us Research Program",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.researchallofus.org\/data-tools\/workbench\/"
+ },
+ {
+  "Tool name": "AoU Researcher Workbench",
+  "GA4GH product implemented": "Genetic Data Encryption (Crypt4GH)",
+  "Organization": "All of Us Research Program",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.researchallofus.org\/data-tools\/workbench\/"
+ },
+ {
+  "Tool name": "AoU Researcher Workbench",
+  "GA4GH product implemented": "htsget",
+  "Organization": "All of Us Research Program",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.researchallofus.org\/data-tools\/workbench\/"
+ },
+ {
+  "GA4GH product implemented": "storage, workflows, analytics",
+  "Organization": "Amazon Omics - AWS Health Omics - solution complimentary through the AGC - another way to interact with AWS services",
+  "Contact": "Lee Pang",
+  "Status": "under consideration"
+ },
+ {
+  "GA4GH product implemented": "WES",
+  "Organization": "Amazon Web Service - AGC",
+  "Contact": "Lee Pang",
+  "Tool url": "https:\/\/docs.dockstore.org\/en\/1.12\/advanced-topics\/wes\/wes-agc-tutorial.html"
+ },
+ {
+  "Tool name": "TogoVar",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "AMED GEM-Japan",
+  "DP?": "x",
+  "Tool url": "https:\/\/grch38.togovar.org\/"
+ },
+ {
+  "Tool name": "TogoVar",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "AMED GEM-Japan",
+  "DP?": "x",
+  "Tool url": "https:\/\/grch38.togovar.org\/"
+ },
+ {
+  "GA4GH product implemented": "Framework",
+  "Organization": "AMED GEM-Japan",
+  "DP?": "x",
+  "Contact": "Soichi",
+  "Status": "Responded 8\/22 asking for more time"
+ },
+ {
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "AMED GEM-Japan",
+  "DP?": "x",
+  "Contact": "Soichi",
+  "Status": "Responded 8\/22 asking for more time"
+ },
+ {
+  "Tool name": "AnVIL",
+  "Tool version": "2.12.0",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Version implemented": "1.1.0",
+  "Organization": "AnVIL",
+  "Contact": "aculotti@uchicago.edu",
+  "Tool url": "https:\/\/gen3.theanvil.io\/",
+  "Docs url": "http:\/\/petstore.swagger.io\/?url=https:\/\/raw.githubusercontent.com\/uc-cdis\/Indexd\/master\/openapis\/swagger.yaml#\/DRS",
+  "Org url": "https:\/\/gen3.theanvil.io\/",
+  "Status": "Emailed 8\/16"
+ },
+ {
+  "Tool name": "Australian Biocommons",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "Australian Biocommons",
+  "Tool url": "https:\/\/www.biocommons.org.au\/",
+  "Status": "testing"
+ },
+ {
+  "Tool name": "Australian Biocommons",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "Australian Biocommons",
+  "Tool url": "https:\/\/www.biocommons.org.au\/"
+ },
+ {
+  "Tool name": "Australian Biocommons",
+  "GA4GH product implemented": "DRS",
+  "Organization": "Australian Biocommons",
+  "Tool url": "https:\/\/www.biocommons.org.au\/"
+ },
+ {
+  "Tool name": "Australian Genomics Data Management Systems",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "Australian Genomics",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.australiangenomics.org.au\/project-areas\/genomic-information-management\/"
+ },
+ {
+  "Tool name": "Australian Genomics Data Management Systems",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "Australian Genomics",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.australiangenomics.org.au\/project-areas\/genomic-information-management\/"
+ },
+ {
+  "Tool name": "Australian Genomics Data Management Systems",
+  "GA4GH product implemented": "Genetic Variation Formats (VCF)",
+  "Organization": "Australian Genomics",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.australiangenomics.org.au\/project-areas\/genomic-information-management\/"
+ },
+ {
+  "Tool name": "Australian Genomics Data Management Systems",
+  "GA4GH product implemented": "htsget",
+  "Organization": "Australian Genomics",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.australiangenomics.org.au\/project-areas\/genomic-information-management\/"
+ },
+ {
+  "Tool name": "Australian Genomics Data Management Systems",
+  "GA4GH product implemented": "MRCG",
+  "Organization": "Australian Genomics",
+  "Contact": "Oliver Hofmann",
+  "Tool url": "https:\/\/www.australiangenomics.org.au\/project-areas\/genomic-information-management\/"
+ },
+ {
+  "Tool name": "Australian Genomics Data Management Systems",
+  "GA4GH product implemented": "SAM\/BAM",
+  "Organization": "Australian Genomics",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.australiangenomics.org.au\/project-areas\/genomic-information-management\/"
+ },
+ {
+  "Tool name": "MSSNG GA4GH Service Registry",
+  "Tool version": "2.0-113-g274a2aa",
+  "GA4GH product implemented": "Service Registry",
+  "Version implemented": "1.0.0",
+  "Organization": "Autism Speaks",
+  "DP?": "x",
+  "Contact": "asgenetics@autismspeaks.org",
+  "Tool url": "https:\/\/ga4gh-service-registry.mss.ng",
+  "Docs url": "https:\/\/github.com\/ga4gh-discovery\/ga4gh-service-registry",
+  "Org url": "https:\/\/www.autismspeaks.org\/"
+ },
+ {
+  "Tool name": "MSSNG Genetics Application System",
+  "GA4GH product implemented": "Data Connect",
+  "Organization": "Autism Speaks|Autism Sharing Initiative",
+  "DP?": "x",
+  "Tool url": "https:\/\/research.mss.ng"
+ },
+ {
+  "Tool name": "MSSNG Genetics Application System",
+  "GA4GH product implemented": "Service Registry",
+  "Organization": "Autism Speaks|Autism Sharing Initiative",
+  "DP?": "x",
+  "Tool url": "https:\/\/research.mss.ng"
+ },
+ {
+  "Tool name": "BRCA Exchange",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "BRCA Challenge",
+  "DP?": "x",
+  "Tool url": "https:\/\/brcaexchange.org\/variants"
+ },
+ {
+  "Tool name": "BRCA Exchange",
+  "GA4GH product implemented": "Variation Representation (VRS)",
+  "Organization": "BRCA Challenge",
+  "DP?": "x",
+  "Tool url": "https:\/\/brcaexchange.org\/variants"
+ },
+ {
+  "Tool name": "BRCA Exchange",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "BRCA Challenge",
+  "DP?": "x",
+  "Tool url": "https:\/\/brcaexchange.org\/variants"
+ },
+ {
+  "Tool name": "Data Use Oversight System",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "Broad Institute",
+  "Contact": "Jonathan Lawson",
+  "Tool url": "https:\/\/duos.broadinstitute.org\/"
+ },
+ {
+  "Tool name": "Data Use Oversight System",
+  "GA4GH product implemented": "MRCG",
+  "Organization": "Broad Institute",
+  "Contact": "Jonathan Lawson",
+  "Tool url": "https:\/\/duos.broadinstitute.org\/"
+ },
+ {
+  "Tool name": "Data Use Oversight System",
+  "GA4GH product implemented": "Passports \/ AAI",
+  "Organization": "Broad Institute",
+  "Contact": "Jonathan Lawson",
+  "Tool url": "https:\/\/duos.broadinstitute.org\/"
+ },
+ {
+  "Tool name": "Data Use Oversight System",
+  "GA4GH product implemented": "DACRES",
+  "Organization": "Broad Institute",
+  "Contact": "Jonathan Lawson",
+  "Tool url": "https:\/\/duos.broadinstitute.org\/"
+ },
+ {
+  "Tool name": "htsjdk",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "Broad Institute",
+  "Contact": "David Roazen",
+  "Tool url": "https:\/\/github.com\/samtools\/htsjdk"
+ },
+ {
+  "Tool name": "htsjdk",
+  "GA4GH product implemented": "vcf\/bcf",
+  "Organization": "Broad Institute",
+  "Contact": "David Roazen",
+  "Tool url": "https:\/\/github.com\/samtools\/htsjdk"
+ },
+ {
+  "Tool name": "htsjdk",
+  "GA4GH product implemented": "crypt4GH",
+  "Organization": "Broad Institute",
+  "Contact": "David Roazen",
+  "Tool url": "https:\/\/github.com\/samtools\/htsjdk"
+ },
+ {
+  "Tool name": "htsjdk",
+  "GA4GH product implemented": "BED",
+  "Organization": "Broad Institute",
+  "Contact": "David Roazen",
+  "Tool url": "https:\/\/github.com\/samtools\/htsjdk"
+ },
+ {
+  "Tool name": "htsjdk",
+  "GA4GH product implemented": "SAM\/BAM",
+  "Organization": "Broad Institute",
+  "Contact": "David Roazen",
+  "Tool url": "https:\/\/github.com\/samtools\/htsjdk"
+ },
+ {
+  "Tool name": "htsjdk",
+  "GA4GH product implemented": "htsget",
+  "Organization": "Broad Institute",
+  "Contact": "David Roazen",
+  "Tool url": "https:\/\/github.com\/samtools\/htsjdk"
+ },
+ {
+  "Tool name": "Terra",
+  "GA4GH product implemented": "TES",
+  "Organization": "Broad Institute",
+  "Contact": "Tom Conner",
+  "Tool url": "https:\/\/terra.bio\/"
+ },
+ {
+  "Tool name": "Terra",
+  "GA4GH product implemented": "Passports \/ AAI",
+  "Organization": "Broad Institute",
+  "Contact": "Tom Conner",
+  "Tool url": "https:\/\/terra.bio\/"
+ },
+ {
+  "Tool name": "Terra",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Organization": "Broad Institute",
+  "Contact": "Tom Conner",
+  "Tool url": "https:\/\/terra.bio\/"
+ },
+ {
+  "Tool name": "Terra",
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Organization": "Broad Institute",
+  "Contact": "Tom Conner",
+  "Tool url": "https:\/\/terra.bio\/"
+ },
+ {
+  "Tool name": "Terra",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "Broad Institute",
+  "Contact": "Tom Conner",
+  "Tool url": "https:\/\/terra.bio\/"
+ },
+ {
+  "Tool name": "GTEx RNAget",
+  "GA4GH product implemented": "rnaget",
+  "Organization": "Broad Institute of MIT and Harvard",
+  "DP?": "x",
+  "Tool url": "https:\/\/gtexportal.org\/rnaget\/docs"
+ },
+ {
+  "Tool name": "Caltech RNAget Reference Implementation",
+  "Tool version": "1.0.0",
+  "GA4GH product implemented": "rnaget",
+  "Version implemented": "1.0.0",
+  "Organization": "California Institute of Technology",
+  "Contact": "sau@caltech.edu",
+  "Tool url": "https:\/\/felcat.caltech.edu\/rnaget",
+  "Docs url": "https:\/\/felcat.caltech.edu\/rnaget",
+  "Org url": "https:\/\/www.caltech.edu\/"
+ },
+ {
+  "Tool name": "CanDIG V2",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "CanDIG",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/CanDIG\/CanDIGv2"
+ },
+ {
+  "Tool name": "CanDIG V2",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "CanDIG",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/CanDIG\/CanDIGv2"
+ },
+ {
+  "Tool name": "CanDIG V2",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Organization": "CanDIG",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/CanDIG\/CanDIGv2"
+ },
+ {
+  "Tool name": "CanDIG V2",
+  "GA4GH product implemented": "Data Security Infrastructure Policy (DSIP)",
+  "Organization": "CanDIG",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/CanDIG\/CanDIGv2"
+ },
+ {
+  "Tool name": "CanDIG V2",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "CanDIG",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/CanDIG\/CanDIGv2"
+ },
+ {
+  "Tool name": "CanDIG V2",
+  "GA4GH product implemented": "Framework",
+  "Organization": "CanDIG",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/CanDIG\/CanDIGv2"
+ },
+ {
+  "Tool name": "CanDIG V2",
+  "GA4GH product implemented": "htsget",
+  "Organization": "CanDIG",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/CanDIG\/CanDIGv2"
+ },
+ {
+  "Tool name": "CanDIG V2",
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "CanDIG",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/CanDIG\/CanDIGv2"
+ },
+ {
+  "Tool name": "CanDIG V2",
+  "GA4GH product implemented": "rnaget",
+  "Organization": "CanDIG",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/CanDIG\/CanDIGv2"
+ },
+ {
+  "Tool name": "CafeVariome \/ RD Nexus",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "Cave Variome",
+  "Tool url": "https:\/\/rd.discovery-nexus.org\/"
+ },
+ {
+  "Tool name": "CafeVariome \/ RD Nexus",
+  "GA4GH product implemented": "DUO",
+  "Organization": "Cave Variome",
+  "Tool url": "https:\/\/rd.discovery-nexus.org\/"
+ },
+ {
+  "Tool name": "CafeVariome \/ RD Nexus",
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "Cave Variome",
+  "Tool url": "https:\/\/rd.discovery-nexus.org\/"
+ },
+ {
+  "Tool name": "CafeVariome \/ RD Nexus",
+  "GA4GH product implemented": "VCF",
+  "Organization": "Cave Variome",
+  "Tool url": "https:\/\/rd.discovery-nexus.org\/"
+ },
+ {
+  "Tool name": "CRG RNAget Reference Implementation",
+  "Tool version": "1.0.0",
+  "GA4GH product implemented": "rnaget",
+  "Version implemented": "1.0.0",
+  "Organization": "Centre for Genomic Regulation",
+  "Contact": "emilio.palumbo@crg.eu",
+  "Tool url": "https:\/\/genome.crg.cat\/rnaget",
+  "Docs url": "https:\/\/genome.crg.cat\/rnaget",
+  "Org url": "https:\/\/www.crg.eu\/"
+ },
+ {
+  "Tool name": "The Kids First Data Resource Center (KFDRC)",
+  "Tool version": 2020.08,
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Version implemented": "1.1.0",
+  "Organization": "Childrens Hospital of Philadelphia",
+  "Contact": "heathap@email.chop.edu",
+  "Tool url": "https:\/\/data.kidsfirstdrc.org",
+  "Docs url": "https:\/\/petstore.swagger.io\/?url=https:\/\/raw.githubusercontent.com\/uc-cdis\/Indexd\/master\/openapis\/swagger.yaml#\/DRS",
+  "Org url": "https:\/\/kidsfirstdrc.org"
+ },
+ {
+  "Tool name": "CAVATICA - seven bridges",
+  "GA4GH product implemented": "WES",
+  "Organization": "CHOP",
+  "Tool url": "https:\/\/www.cavatica.org\/"
+ },
+ {
+  "Tool name": "ClinGen Knowledge-base",
+  "GA4GH product implemented": "Variation Representation (VRS)",
+  "Organization": "Clinical Genome Resource (ClinGen)",
+  "DP?": "x",
+  "Tool url": "https:\/\/search.clinicalgenome.org\/kb"
+ },
+ {
+  "Tool name": "ELIXIR-FI Beacon Registry",
+  "Tool version": "1.1.0",
+  "GA4GH product implemented": "Service Registry",
+  "Version implemented": "1.0.0",
+  "Organization": "CSC - IT Center for Science Ltd.",
+  "Contact": "https:\/\/www.csc.fi\/contact-info",
+  "Tool url": "https:\/\/registry-beacon.rahtiapp.fi",
+  "Docs url": "https:\/\/beacon-network.readthedocs.io\/en\/latest\/",
+  "Org url": "https:\/\/www.csc.fi\/"
+ },
+ {
+  "Tool name": "DNAstack Beacon Network",
+  "Tool version": "1.1-149-ga8b0cf5",
+  "GA4GH product implemented": "Service Registry",
+  "Version implemented": "1.0.0",
+  "Organization": "DNAstack",
+  "Contact": "support@dnastack.com",
+  "Tool url": "https:\/\/beacon-network.org\/api\/v2",
+  "Docs url": "https:\/\/beacon-network.org\/#\/developers\/api\/beacon-network",
+  "Org url": "https:\/\/dnastack.com"
+ },
+ {
+  "Tool name": "DNAstack Beacon network",
+  "GA4GH product implemented": "Beacon API",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack Beacon network",
+  "GA4GH product implemented": "Service Registry",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack Demo WES Service",
+  "Tool version": "1.0.0",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Version implemented": "1.0.0",
+  "Organization": "DNAstack",
+  "Contact": "support@dnastack.com",
+  "Tool url": "https:\/\/ddap-wes-service.prod.dnastack.com\/ga4gh\/wes\/v1",
+  "Docs url": "https:\/\/github.com\/ga4gh\/workflow-execution-service-schemas",
+  "Org url": "https:\/\/dnastack.com"
+ },
+ {
+  "Tool name": "DNAstack Discovery Search test",
+  "Tool version": "0.1.0",
+  "GA4GH product implemented": "Data Connect",
+  "Version implemented": "1.0.0",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/storage.googleapis.com\/ga4gh-tables-example\/tables",
+  "Org url": "https:\/\/dnastack.com"
+ },
+ {
+  "Tool name": "DNAstack Explorer",
+  "GA4GH product implemented": "Data Connect",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack Explorer",
+  "GA4GH product implemented": "DRS",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack Expxlorer",
+  "GA4GH product implemented": "Service Registry",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack passport",
+  "GA4GH product implemented": "AAI",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack passport",
+  "GA4GH product implemented": "Passport",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack Publisher",
+  "GA4GH product implemented": "Data Connect",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack Publisher",
+  "GA4GH product implemented": "DRS",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack publisher",
+  "GA4GH product implemented": "Service Info",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack publisher",
+  "GA4GH product implemented": "Service Registry",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack workbench",
+  "GA4GH product implemented": "Service Info",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack workbench",
+  "GA4GH product implemented": "Service Registry",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "DNAstack Workbench",
+  "GA4GH product implemented": "WES",
+  "Organization": "DNAstack",
+  "Tool url": "https:\/\/dnastack.com",
+  "Status": "confirmed - get links"
+ },
+ {
+  "Tool name": "ga4gh-search-adapter-presto-public",
+  "Tool version": "0.4-189-gbfc2688",
+  "GA4GH product implemented": "Data Connect",
+  "Version implemented": "1.0.0",
+  "Organization": "DNAstack",
+  "Contact": "support@dnastack.com",
+  "Tool url": "https:\/\/ga4gh-search-adapter-presto-public.prod.dnastack.com",
+  "Docs url": "https:\/\/github.com\/ga4gh-discovery\/ga4gh-discovery-search",
+  "Org url": "https:\/\/dnastack.com"
+ },
+ {
+  "Tool name": "Dockstore",
+  "Tool version": "1.8.1",
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Version implemented": "2.0.0",
+  "Organization": "Dockstore",
+  "Tool url": "https:\/\/dockstore.org\/api\/api\/ga4gh\/v2\/",
+  "Docs url": "https:\/\/dockstore.org\/api\/static\/swagger-ui\/index.html",
+  "Org url": "https:\/\/dockstore.org"
+ },
+ {
+  "Tool name": "EJP-RD Beacon-in-a-Box",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/ejp-rd-vp\/EJP-RD-Beacon-in-a-Box#readme"
+ },
+ {
+  "Tool name": "EJP-RD Virtual Platform",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Tool url": "https:\/\/vp.ejprarediseases.org"
+ },
+ {
+  "Tool name": "EJP-RD Virtual Platform",
+  "GA4GH product implemented": "Framework",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Tool url": "https:\/\/vp.ejprarediseases.org"
+ },
+ {
+  "Tool name": "EJP-RD Virtual Platform",
+  "GA4GH product implemented": "htsget",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Tool url": "https:\/\/vp.ejprarediseases.org"
+ },
+ {
+  "Tool name": "EJP-RD Virtual Platform",
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Tool url": "https:\/\/vp.ejprarediseases.org"
+ },
+ {
+  "Tool name": "EJP-RD Virtual Platform",
+  "GA4GH product implemented": "refget",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Tool url": "https:\/\/vp.ejprarediseases.org"
+ },
+ {
+  "Tool name": "EJP-RD Virtual Platform",
+  "GA4GH product implemented": "Service Info",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Tool url": "https:\/\/vp.ejprarediseases.org"
+ },
+ {
+  "Tool name": "EJP-RD Virtual Platform",
+  "GA4GH product implemented": "Service Registry",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Tool url": "https:\/\/vp.ejprarediseases.org"
+ },
+ {
+  "Tool name": "EJP-RD Virtual Platform",
+  "GA4GH product implemented": "Variant Annotation (VA)",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Tool url": "https:\/\/vp.ejprarediseases.org"
+ },
+ {
+  "GA4GH product implemented": "Authorisation and Authentication Infrastructure (AAI)",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Contact": "Morris, Tony, Sergi",
+  "Status": "Emailed again 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Contact": "Morris, Tony, Sergi",
+  "Status": "Emailed again 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Passports",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Contact": "Morris, Tony, Sergi",
+  "Status": "Emailed again 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Task Execution Service (TES)",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Contact": "Morris, Tony, Sergi",
+  "Status": "Emailed again 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Contact": "Morris, Tony, Sergi",
+  "Status": "Emailed again 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "EJP RD",
+  "DP?": "x",
+  "Contact": "Morris, Tony, Sergi",
+  "Status": "Emailed again 8\/15"
+ },
+ {
+  "Tool name": "EJP-RD Vitual Platform (VP)",
+  "GA4GH product implemented": "Beacon V2",
+  "Organization": "EJP RD",
+  "Tool url": "- https:\/\/vp.ejprarediseases.org\/",
+  "Docs url": "- https:\/\/github.com\/ejp-rd-vp\/vp-api-specs"
+ },
+ {
+  "Tool name": "RD-Connect GPAP",
+  "Organization": "EJP RD",
+  "Tool url": "https:\/\/platform.rd-connect.eu"
+ },
+ {
+  "Tool name": "Elimu platform",
+  "GA4GH product implemented": "VA and VCF",
+  "Organization": "Elimu Informatics - alignment to FHIR",
+  "Contact": "Bob Dolin",
+  "Tool url": "https:\/\/academic.oup.com\/jamia\/article\/30\/3\/485\/6957062?login=false"
+ },
+ {
+  "Tool name": "ELIXIR BioContainers",
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Organization": "ELIXIR",
+  "DP?": "x",
+  "Tool url": "https:\/\/biocontainers.pro"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "Authorisation and Authentication Infrastructure (AAI)",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "Genetic Data Encryption (Crypt4GH)",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "htsget",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "Passports",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "refget",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "rnaget",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "Service Registry",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "Task Execution Service (TES)",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "ELIXIR-Beacon",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "ELIXIR - Beacon",
+  "DP?": "x",
+  "Tool url": "https:\/\/beacon-network.elixir-europe.org"
+ },
+ {
+  "Tool name": "Biocontainers",
+  "Tool version": "1.0.0",
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Version implemented": "2.0.0",
+  "Organization": "ELIXIR - Biocontainers",
+  "DP?": "x",
+  "Contact": "Perez et al",
+  "Tool url": "https:\/\/biocontainers-edu.biocontainers.pro\/en\/latest\/",
+  "Docs url": "https:\/\/biocontainers-edu.biocontainers.pro\/en\/latest\/",
+  "Org url": "https:\/\/biocontainers.pro",
+  "Status": "Emailed 8\/16 - https:\/\/api.biocontainers.pro\/api\/ga4gh\/v2"
+ },
+ {
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "ELIXIR - Biocontainers",
+  "DP?": "x",
+  "Contact": "Perez et al",
+  "Tool url": "https:\/\/github.com\/Biocontainers",
+  "Status": "Emailed 8\/16"
+ },
+ {
+  "GA4GH product implemented": "Task Execution Service (TES)",
+  "Organization": "ELIXIR - Biocontainers",
+  "DP?": "x",
+  "Contact": "Perez et al",
+  "Status": "Emailed 8\/16"
+ },
+ {
+  "Tool name": "cwl-WES",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "ELIXIR - Cloud & AAI",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/elixir-cloud-aai\/cwl-WES"
+ },
+ {
+  "Tool name": "ELIXIR Cloud & AAI",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Organization": "ELIXIR - Cloud & AAI",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/elixir-cloud-aai"
+ },
+ {
+  "Tool name": "ELIXIR Cloud & AAI",
+  "GA4GH product implemented": "Service Registry",
+  "Organization": "ELIXIR - Cloud & AAI",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/elixir-cloud-aai"
+ },
+ {
+  "Tool name": "ELIXIR Cloud & AAI",
+  "GA4GH product implemented": "Task Execution Service (TES)",
+  "Organization": "ELIXIR - Cloud & AAI",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/elixir-cloud-aai"
+ },
+ {
+  "Tool name": "ELIXIR Cloud & AAI",
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Organization": "ELIXIR - Cloud & AAI",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/elixir-cloud-aai"
+ },
+ {
+  "Tool name": "ELIXIR Cloud & AAI",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "ELIXIR - Cloud & AAI",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/elixir-cloud-aai"
+ },
+ {
+  "Tool name": "Life Science AAI",
+  "GA4GH product implemented": "Authorisation and Authentication Infrastructure (AAI)",
+  "Organization": "ELIXIR - Cloud & AAI",
+  "DP?": "x",
+  "Tool url": "https:\/\/lifescience-ri.eu\/ls-login.html"
+ },
+ {
+  "Tool name": "Life Science AAI",
+  "GA4GH product implemented": "Passports",
+  "Organization": "ELIXIR - Cloud & AAI",
+  "DP?": "x",
+  "Tool url": "https:\/\/lifescience-ri.eu\/ls-login.html"
+ },
+ {
+  "Tool name": "TESK",
+  "GA4GH product implemented": "Task Execution Service (TES)",
+  "Organization": "ELIXIR - Cloud & AAI",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/elixir-cloud-aai\/TESK"
+ },
+ {
+  "Tool name": "ELIXIR European Genome-phenome Archive (EGA)",
+  "GA4GH product implemented": "Authorisation and Authentication Infrastructure (AAI)",
+  "Organization": "ELIXIR - EGA",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org"
+ },
+ {
+  "Tool name": "ELIXIR European Genome-phenome Archive (EGA)",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "ELIXIR - EGA",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org"
+ },
+ {
+  "Tool name": "ELIXIR European Genome-phenome Archive (EGA)",
+  "GA4GH product implemented": "Genetic Data Encryption (Crypt4GH)",
+  "Organization": "ELIXIR - EGA",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org"
+ },
+ {
+  "Tool name": "ELIXIR European Genome-phenome Archive (EGA)",
+  "GA4GH product implemented": "htsget",
+  "Organization": "ELIXIR - EGA",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org"
+ },
+ {
+  "Tool name": "ELIXIR European Genome-phenome Archive (EGA)",
+  "GA4GH product implemented": "Passports",
+  "Organization": "ELIXIR - EGA",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org"
+ },
+ {
+  "Tool name": "ELIXIR European Genome-phenome Archive (EGA)",
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "ELIXIR - EGA",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org"
+ },
+ {
+  "Tool name": "ELIXIR European Genome-phenome Archive (EGA)",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "ELIXIR - EGA",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org\/datasets\/EGAD00000000001"
+ },
+ {
+  "Tool name": "Federated EGA",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "ENA \/ EVA \/ EGA|EMBL's European Bioinformatics Institute (EBI)|Centre for Genomic Regulation",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org\/federated"
+ },
+ {
+  "Tool name": "Federated EGA",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "ENA \/ EVA \/ EGA|EMBL's European Bioinformatics Institute (EBI)|Centre for Genomic Regulation",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org\/federated"
+ },
+ {
+  "Tool name": "Federated EGA",
+  "GA4GH product implemented": "Genetic Data Encryption (Crypt4GH)",
+  "Organization": "ENA \/ EVA \/ EGA|EMBL's European Bioinformatics Institute (EBI)|Centre for Genomic Regulation",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org\/federated"
+ },
+ {
+  "Tool name": "Federated EGA",
+  "GA4GH product implemented": "htsget",
+  "Organization": "ENA \/ EVA \/ EGA|EMBL's European Bioinformatics Institute (EBI)|Centre for Genomic Regulation",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org\/federated"
+ },
+ {
+  "Tool name": "Federated EGA",
+  "GA4GH product implemented": "Passports",
+  "Organization": "ENA \/ EVA \/ EGA|EMBL's European Bioinformatics Institute (EBI)|Centre for Genomic Regulation",
+  "DP?": "x",
+  "Tool url": "https:\/\/ega-archive.org\/federated"
+ },
+ {
+  "Tool name": "Federated EGA",
+  "GA4GH product implemented": "refget",
+  "Organization": "ENA \/ EVA \/ EGA|EMBL's European Bioinformatics Institute (EBI)|Centre for Genomic Regulation",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.ebi.ac.uk\/ena\/cram"
+ },
+ {
+  "GA4GH product implemented": "rnaget",
+  "Organization": "ENCODE Expression Reporting",
+  "Contact": "Ben Hitz",
+  "Tool url": "https:\/\/www.encodeproject.org\/rnaget-report\/?type=RNAExpression"
+ },
+ {
+  "Tool name": "EpiShare Platform",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Organization": "EpiShare",
+  "DP?": "x",
+  "Tool url": "https:\/\/epishare-project.org\/about.html"
+ },
+ {
+  "Tool name": "EpiShare Platform",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "EpiShare",
+  "DP?": "x",
+  "Tool url": "https:\/\/epishare-project.org\/about.html"
+ },
+ {
+  "Tool name": "EpiShare Platform",
+  "GA4GH product implemented": "Genetic Data Encryption (Crypt4GH)",
+  "Organization": "EpiShare",
+  "DP?": "x",
+  "Tool url": "https:\/\/epishare-project.org\/about.html"
+ },
+ {
+  "Tool name": "EpiShare Platform",
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "EpiShare",
+  "DP?": "x",
+  "Tool url": "https:\/\/epishare-project.org\/about.html"
+ },
+ {
+  "Tool name": "EpiShare Platform",
+  "GA4GH product implemented": "rnaget",
+  "Organization": "EpiShare",
+  "DP?": "x",
+  "Tool url": "https:\/\/epishare-project.org\/about.html"
+ },
+ {
+  "Tool name": "EpiShare Platform",
+  "GA4GH product implemented": "Service Registry",
+  "Organization": "EpiShare",
+  "DP?": "x",
+  "Tool url": "https:\/\/epishare-project.org\/about.html"
+ },
+ {
+  "Tool name": "EpiShare Platform",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "EpiShare",
+  "DP?": "x",
+  "Tool url": "https:\/\/epishare-project.org\/about.html"
+ },
+ {
+  "Tool name": "CRAM Reference Registry",
+  "Tool version": "1.0.0",
+  "GA4GH product implemented": "refget",
+  "Version implemented": "1.0.0",
+  "Organization": "European Bioinformatics Institute",
+  "Contact": "ayates@ebi.ac.uk",
+  "Tool url": "https:\/\/www.ebi.ac.uk\/ena\/cram",
+  "Docs url": "https:\/\/ena-docs.readthedocs.io\/en\/latest\/retrieval\/programmatic-access.html#access-the-cram-reference-registry",
+  "Org url": "https:\/\/www.ebi.ac.uk\/"
+ },
+ {
+  "Tool name": "INSDC Refget Mirror",
+  "Tool version": "0.3.0",
+  "GA4GH product implemented": "refget",
+  "Version implemented": "1.0.0",
+  "Organization": "European Bioinformatics Institute",
+  "Contact": "jeremy.adams@ga4gh.org",
+  "Tool url": "https:\/\/refget-insdc.jeremy-codes.com",
+  "Docs url": "https:\/\/refget-insdc.jeremy-codes.com\/index.html",
+  "Org url": "https:\/\/www.ebi.ac.uk\/"
+ },
+ {
+  "Tool name": "Refget reference implementation",
+  "Tool version": "1.0.0",
+  "GA4GH product implemented": "refget",
+  "Version implemented": "1.0.0",
+  "Organization": "European Bioinformatics Institute",
+  "Contact": "ayates@ebi.ac.uk",
+  "Tool url": "https:\/\/refget.herokuapp.com",
+  "Docs url": "https:\/\/github.com\/andrewyatz\/refget-server-perl",
+  "Org url": "https:\/\/www.ebi.ac.uk\/"
+ },
+ {
+  "Tool name": "Serverless refget on AWS",
+  "Tool version": "1.0.0",
+  "GA4GH product implemented": "refget",
+  "Version implemented": "1.0.0",
+  "Organization": "European Bioinformatics Institute",
+  "Contact": "jeremy.adams@ga4gh.org",
+  "Tool url": "https:\/\/spjb6ejone.execute-api.us-east-2.amazonaws.com\/Prod",
+  "Docs url": "https:\/\/github.com\/ga4gh\/refget-cloud",
+  "Org url": "https:\/\/www.ebi.ac.uk\/"
+ },
+ {
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "European Bioinformatics Institute",
+  "Contact": "Andy Yates",
+  "Org url": "https:\/\/www.ebi.ac.uk\/",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "rnaget",
+  "Organization": "European Bioinformatics Institute",
+  "Contact": "Andy Yates",
+  "Org url": "https:\/\/www.ebi.ac.uk\/",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "Tool name": "ELIXIR-Biosamples",
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "European Bioinformatics Institute - Biosamples",
+  "Contact": "Andy Yates",
+  "Tool url": "ebi.ac.uk\/biosamples\/samples\/SAMN36312969.pxf",
+  "Org url": "https:\/\/www.ebi.ac.uk\/"
+ },
+ {
+  "GA4GH product implemented": "TRS",
+  "Organization": "Galaxy Project",
+  "Tool url": "https:\/\/galaxyproject.org\/ga4gh\/"
+ },
+ {
+  "GA4GH product implemented": "TES",
+  "Organization": "Galaxy Project",
+  "Tool url": "https:\/\/galaxyproject.org\/ga4gh\/"
+ },
+ {
+  "GA4GH product implemented": "Beacon",
+  "Organization": "Galaxy Project",
+  "Tool url": "https:\/\/galaxyproject.org\/ga4gh\/"
+ },
+ {
+  "Tool name": "TogoVar",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "GEnome Medical alliance Japan (GEM Japan)",
+  "DP?": "x",
+  "Tool url": "https:\/\/grch38.togovar.org"
+ },
+ {
+  "Tool name": "TogoVar",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "GEnome Medical alliance Japan (GEM Japan)",
+  "DP?": "x",
+  "Tool url": "https:\/\/grch38.togovar.org"
+ },
+ {
+  "Tool name": "Genomics England Research Environment",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "Genomics England",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.genomicsengland.co.uk\/research\/research-environment"
+ },
+ {
+  "Tool name": "Genomics England Research Environment",
+  "GA4GH product implemented": "htsget",
+  "Organization": "Genomics England",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.genomicsengland.co.uk\/research\/research-environment"
+ },
+ {
+  "Tool name": "In",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "Genomics England",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.england.nhs.uk\/contact-us\/privacy-notice\/nhs-genomic-medicine-service\/"
+ },
+ {
+  "Tool name": "National Genomic Information System (NGIS)",
+  "GA4GH product implemented": "htsget",
+  "Organization": "Genomics England",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.england.nhs.uk\/contact-us\/privacy-notice\/nhs-genomic-medicine-service\/"
+ },
+ {
+  "GA4GH product implemented": "htsget",
+  "Organization": "Genomics England",
+  "DP?": "x",
+  "Contact": "Augusto Rendon",
+  "Tool url": "https:\/\/github.com\/genomicsengland\/gel-htsget"
+ },
+ {
+  "GA4GH product implemented": "htsget",
+  "Organization": "Genomics England \/ Congenica Hercules",
+  "DP?": "x",
+  "Contact": "Augusto Rendon",
+  "Tool url": "https:\/\/cnfl.extge.co.uk\/pages\/viewpage.action?pageId=402391337"
+ },
+ {
+  "Tool name": "GA4GH htsget reference server reads API",
+  "Tool version": "1.3.0",
+  "GA4GH product implemented": "htsget",
+  "Version implemented": "1.2.0",
+  "Organization": "Global Alliance for Genomics and Health",
+  "Contact": "jeremy.adams@ga4gh.org",
+  "Tool url": "https:\/\/htsget.ga4gh.org\/reads",
+  "Docs url": "https:\/\/ga4gh.github.io\/htsget-refserver\/docs\/index.html",
+  "Org url": "https:\/\/ga4gh.org"
+ },
+ {
+  "Tool name": "GA4GH htsget reference server variants API",
+  "Tool version": "1.3.0",
+  "GA4GH product implemented": "htsget",
+  "Version implemented": "1.2.0",
+  "Organization": "Global Alliance for Genomics and Health",
+  "Contact": "jeremy.adams@ga4gh.org",
+  "Tool url": "https:\/\/htsget.ga4gh.org\/variants",
+  "Docs url": "https:\/\/ga4gh.github.io\/htsget-refserver\/docs\/index.html",
+  "Org url": "https:\/\/ga4gh.org"
+ },
+ {
+  "Tool name": "GA4GH Standards and Implementations Registry",
+  "Tool version": "1.0.0",
+  "GA4GH product implemented": "Service Registry",
+  "Version implemented": "1.0.0",
+  "Organization": "Global Alliance for Genomics and Health",
+  "Contact": "jeremy.adams@ga4gh.org",
+  "Tool url": "https:\/\/registry.ga4gh.org\/v1",
+  "Docs url": "https:\/\/ga4gh.github.io\/ga4gh-registry\/docs\/index.html",
+  "Org url": "https:\/\/ga4gh.org"
+ },
+ {
+  "Tool name": "H3ABionet",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "H3Africa",
+  "DP?": "x",
+  "Tool url": "https:\/\/h3abionet.org"
+ },
+ {
+  "Tool name": "H3ABionet",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "H3Africa",
+  "DP?": "x",
+  "Tool url": "https:\/\/h3abionet.org"
+ },
+ {
+  "Tool name": "H3ABionet",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "H3Africa",
+  "DP?": "x",
+  "Tool url": "https:\/\/h3abionet.org"
+ },
+ {
+  "Tool name": "H3ABionet",
+  "GA4GH product implemented": "Genetic Data Encryption (Crypt4GH)",
+  "Organization": "H3Africa",
+  "DP?": "x",
+  "Tool url": "https:\/\/h3abionet.org"
+ },
+ {
+  "GA4GH product implemented": "Framework",
+  "Organization": "HDR UK",
+  "Status": "Missing"
+ },
+ {
+  "GA4GH product implemented": "Framework",
+  "Organization": "Horizon-2020 CORBEL project",
+  "Status": "Missing"
+ },
+ {
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "HPO Case Annotator",
+  "Status": "Missing"
+ },
+ {
+  "Tool name": "Human Cell Atlas (HCA) Data Portal",
+  "GA4GH product implemented": "Authorisation and Authentication Infrastructure (AAI)",
+  "Organization": "Human Cell Atlas",
+  "DP?": "x",
+  "Tool url": "https:\/\/data.humancellatlas.org"
+ },
+ {
+  "Tool name": "Human Cell Atlas (HCA) Data Portal",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Organization": "Human Cell Atlas",
+  "DP?": "x",
+  "Tool url": "https:\/\/data.humancellatlas.org"
+ },
+ {
+  "Tool name": "Human Cell Atlas (HCA) Data Portal",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "Human Cell Atlas",
+  "DP?": "x",
+  "Tool url": "https:\/\/data.humancellatlas.org"
+ },
+ {
+  "Tool name": "Human Cell Atlas (HCA) Data Portal",
+  "GA4GH product implemented": "Task Execution Service (TES)",
+  "Organization": "Human Cell Atlas",
+  "DP?": "x",
+  "Tool url": "https:\/\/data.humancellatlas.org"
+ },
+ {
+  "Tool name": "Human Cell Atlas (HCA) Data Portal",
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Organization": "Human Cell Atlas",
+  "DP?": "x",
+  "Tool url": "https:\/\/data.humancellatlas.org"
+ },
+ {
+  "Tool name": "Human Cell Atlas (HCA) Data Portal",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "Human Cell Atlas",
+  "DP?": "x",
+  "Tool url": "https:\/\/data.humancellatlas.org"
+ },
+ {
+  "Tool name": "ARGO Data Platform",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "ICGC ARGO",
+  "DP?": "x",
+  "Tool url": "https:\/\/platform.icgc-argo.org"
+ },
+ {
+  "Tool name": "ARGO Data Platform",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "ICGC ARGO",
+  "DP?": "x",
+  "Tool url": "https:\/\/platform.icgc-argo.org"
+ },
+ {
+  "Tool name": "ARGO Data Platform",
+  "GA4GH product implemented": "Framework",
+  "Organization": "ICGC ARGO",
+  "DP?": "x",
+  "Tool url": "https:\/\/platform.icgc-argo.org"
+ },
+ {
+  "Tool name": "ARGO Data Platform",
+  "GA4GH product implemented": "Framework for Involving and Engaging Participants, Patients, and Publics in Genomics Research and Health Implementation",
+  "Organization": "ICGC ARGO",
+  "DP?": "x",
+  "Tool url": "https:\/\/platform.icgc-argo.org"
+ },
+ {
+  "Tool name": "ARGO Data Platform",
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Organization": "ICGC ARGO",
+  "DP?": "x",
+  "Tool url": "https:\/\/platform.icgc-argo.org"
+ },
+ {
+  "Tool name": "ARGO Data Platform",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "ICGC ARGO",
+  "DP?": "x",
+  "Tool url": "https:\/\/platform.icgc-argo.org"
+ },
+ {
+  "GA4GH product implemented": "rnaget",
+  "Organization": "IHEC Data Portal",
+  "Status": "Missing"
+ },
+ {
+  "GA4GH product implemented": "CRAM",
+  "Organization": "Illumina",
+  "Contact": "Shane Chase?",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Organization": "Illumina",
+  "Contact": "Shane Chase?",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Organization": "Illumina",
+  "Contact": "Shane Chase?",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "Illumina",
+  "Contact": "Shane Chase?",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "refget and htsget",
+  "Organization": "interesting to AWS customers - align with storage service, lots of curiosity but not a lot of widespread adoption;\nhtsget github itself is not maintained, especially on refget\npublicaly we have",
+  "Contact": "Domen",
+  "Status": "under consideration"
+ },
+ {
+  "Tool name": "BioBank Japan (BBJ)",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "Japan Agency for Medical Research and Development (AMED)",
+  "DP?": "x",
+  "Tool url": "https:\/\/biobankjp.org"
+ },
+ {
+  "Tool name": "BioBank Japan (BBJ)",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "Japan Agency for Medical Research and Development (AMED)",
+  "DP?": "x",
+  "Tool url": "https:\/\/biobankjp.org"
+ },
+ {
+  "Tool name": "Medical Genomics Japan Variant Database (MGeND)",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "Japan Agency for Medical Research and Development (AMED)",
+  "DP?": "x",
+  "Tool url": "https:\/\/mgend.med.kyoto-u.ac.jp"
+ },
+ {
+  "Tool name": "Medical Genomics Japan Variant Database (MGeND)",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "Japan Agency for Medical Research and Development (AMED)",
+  "DP?": "x",
+  "Tool url": "https:\/\/mgend.med.kyoto-u.ac.jp"
+ },
+ {
+  "Tool name": "Tohoku Medical Megabank Project (ToMMo)",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "Japan Agency for Medical Research and Development (AMED)",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.megabank.tohoku.ac.jp\/english\/"
+ },
+ {
+  "Tool name": "Tohoku Medical Megabank Project (ToMMo)",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "Japan Agency for Medical Research and Development (AMED)",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.megabank.tohoku.ac.jp\/english\/"
+ },
+ {
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "LIRICAL",
+  "Status": "Missing"
+ },
+ {
+  "Tool name": "Matchmaker Exchange",
+  "GA4GH product implemented": "Beacon V2",
+  "Organization": "Matchmaker Exchange",
+  "DP?": "x",
+  "Contact": "Nara Sobreira",
+  "Tool url": "https:\/\/www.matchmakerexchange.org\/"
+ },
+ {
+  "Tool name": "GA4GH TES on Azure",
+  "GA4GH product implemented": "Task Execution Service (TES)",
+  "Organization": "Microsoft",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/microsoft\/ga4gh-tes"
+ },
+ {
+  "Tool name": "The Exomiser",
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "Monarch Initiative",
+  "DP?": "x",
+  "Tool url": "https:\/\/exomiser.monarchinitiative.org\/exomiser\/submit?"
+ },
+ {
+  "Tool name": "The Exomiser",
+  "GA4GH product implemented": "Variation Representation (VRS)",
+  "Organization": "Monarch Initiative",
+  "DP?": "x",
+  "Tool url": "https:\/\/exomiser.monarchinitiative.org\/exomiser\/submit?"
+ },
+ {
+  "Tool name": "CGC - Seven Bridges",
+  "GA4GH product implemented": "WES",
+  "Organization": "NCI",
+  "Tool url": "https:\/\/www.cancergenomicscloud.org\/"
+ },
+ {
+  "Tool name": "NCI DCFS",
+  "Tool version": "2.12.0",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Version implemented": "1.1.0",
+  "Organization": "NCI Data Commons Framework Services",
+  "DP?": "x",
+  "Contact": "mlukowski@uchicago.edu",
+  "Tool url": "https:\/\/nci-crdc.datacommons.io\/",
+  "Docs url": "http:\/\/petstore.swagger.io\/?url=https:\/\/raw.githubusercontent.com\/uc-cdis\/Indexd\/master\/openapis\/swagger.yaml#\/DRS",
+  "Org url": "https:\/\/nci-crdc.datacommons.io\/"
+ },
+ {
+  "GA4GH product implemented": "WES",
+  "Organization": "Nextflow Tower (via GEL)",
+  "DP?": "x",
+  "Contact": "Augusto Rendon",
+  "Tool url": "https:\/\/tower.nf\/openapi\/nextflow-tower-api-latest.yml"
+ },
+ {
+  "Tool name": "BioDataCatalyst - seven bridges",
+  "GA4GH product implemented": "WES",
+  "Organization": "NHLBI",
+  "Tool url": "https:\/\/biodatacatalyst.nhlbi.nih.gov\/"
+ },
+ {
+  "Tool name": "NHLBI TOPMed BioData Catalyst",
+  "GA4GH product implemented": "CRAM",
+  "Organization": "NHLBI TOPMed",
+  "DP?": "x",
+  "Tool url": "https:\/\/gen3.biodatacatalyst.nhlbi.nih.gov\/"
+ },
+ {
+  "Tool name": "NHLBI TOPMed BioData Catalyst",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Organization": "NHLBI TOPMed",
+  "DP?": "x",
+  "Tool url": "https:\/\/gen3.biodatacatalyst.nhlbi.nih.gov\/"
+ },
+ {
+  "Tool name": "NHLBI TOPMed BioData Catalyst",
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "NHLBI TOPMed",
+  "DP?": "x",
+  "Tool url": "https:\/\/gen3.biodatacatalyst.nhlbi.nih.gov\/"
+ },
+ {
+  "Tool name": "NHLBI TOPMed BioData Catalyst",
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Organization": "NHLBI TOPMed",
+  "DP?": "x",
+  "Tool url": "https:\/\/gen3.biodatacatalyst.nhlbi.nih.gov\/"
+ },
+ {
+  "Tool name": "NHLBI TOPMed BioData Catalyst",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "NHLBI TOPMed",
+  "DP?": "x",
+  "Tool url": "https:\/\/gen3.biodatacatalyst.nhlbi.nih.gov\/"
+ },
+ {
+  "Tool name": "BioData Catalyst",
+  "Tool version": "2.12.0",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Version implemented": "1.1.0",
+  "Organization": "NHLBI TOPMed - BioData Catalyst",
+  "DP?": "x",
+  "Contact": "aculotti@uchicago.edu",
+  "Tool url": "https:\/\/biodatacatalyst.nhlbi.nih.gov\/",
+  "Docs url": "http:\/\/petstore.swagger.io\/?url=https:\/\/raw.githubusercontent.com\/uc-cdis\/Indexd\/master\/openapis\/swagger.yaml#\/DRS",
+  "Org url": "https:\/\/gen3.biodatacatalyst.nhlbi.nih.gov\/"
+ },
+ {
+  "Tool name": "NCI Data Commons Framework",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Organization": "NIH National Cancer Institute (NCI)",
+  "DP?": "x",
+  "Tool url": "https:\/\/nci-crdc.datacommons.io\/"
+ },
+ {
+  "GA4GH product implemented": "CRAM",
+  "Organization": "OICR",
+  "Contact": "Peter",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "Tool name": "Funnel",
+  "GA4GH product implemented": "Task Execution Service (TES)",
+  "Organization": "Oregon Health & Science University",
+  "DP?": "x",
+  "Tool url": "https:\/\/github.com\/ohsu-comp-bio\/funnel"
+ },
+ {
+  "Tool name": "BDC GA4GH WES API",
+  "Tool version": "1.0.1.4",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Version implemented": "1.0.0",
+  "Organization": "Seven Bridges",
+  "Contact": "support@sevenbridges.com",
+  "Tool url": "https:\/\/ga4gh-api.sb.biodatacatalyst.nhlbi.nih.gov\/ga4gh\/wes\/v1\/",
+  "Docs url": "https:\/\/sb-biodatacatalyst.readme.io\/wes-api-overview",
+  "Org url": "https:\/\/www.sevenbridges.com"
+ },
+ {
+  "Tool name": "BioDataCatalyst",
+  "GA4GH product implemented": "DRS",
+  "Organization": "Seven Bridges",
+  "Tool url": "https:\/\/biodatacatalyst.nhlbi.nih.gov\/"
+ },
+ {
+  "Tool name": "Cancer Genomics Cloud DRS API",
+  "Tool version": "1.0.0",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Version implemented": "1.0.0",
+  "Organization": "Seven Bridges",
+  "Contact": "support@sevenbridges.com",
+  "Tool url": "https:\/\/cgc-ga4gh-api.sbgenomics.com",
+  "Docs url": "https:\/\/docs.cancergenomicscloud.org\/docs\/drs-api-overview",
+  "Org url": "https:\/\/www.sevenbridges.com"
+ },
+ {
+  "Tool name": "CAVATICA",
+  "GA4GH product implemented": "DRS",
+  "Organization": "Seven Bridges",
+  "Tool url": "https:\/\/www.cavatica.org\/"
+ },
+ {
+  "Tool name": "Cavatica DRS API",
+  "Tool version": "1.0.0",
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Version implemented": "1.0.0",
+  "Organization": "Seven Bridges",
+  "Contact": "support@sevenbridges.com",
+  "Tool url": "https:\/\/cavatica-ga4gh-api.sbgenomics.com",
+  "Docs url": "https:\/\/docs.cavatica.org\/docs\/drs-api-overview",
+  "Org url": "https:\/\/www.sevenbridges.com"
+ },
+ {
+  "Tool name": "Cavatica GA4GH WES API",
+  "Tool version": "1.0.1.4",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Version implemented": "1.0.0",
+  "Organization": "Seven Bridges",
+  "Contact": "support@sevenbridges.com",
+  "Tool url": "https:\/\/cavatica-ga4gh-api.sbgenomics.com\/ga4gh\/wes\/v1\/",
+  "Docs url": "https:\/\/docs.cavatica.org\/wes-api-overview",
+  "Org url": "https:\/\/www.sevenbridges.com"
+ },
+ {
+  "Tool name": "CGC",
+  "GA4GH product implemented": "DRS",
+  "Organization": "Seven Bridges",
+  "Tool url": "https:\/\/www.cancergenomicscloud.org\/"
+ },
+ {
+  "Tool name": "CGC GA4GH WES API",
+  "Tool version": "1.0.1.4",
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Version implemented": "1.0.0",
+  "Organization": "Seven Bridges",
+  "Contact": "support@sevenbridges.com",
+  "Tool url": "https:\/\/cgc-ga4gh-api.sbgenomics.com\/ga4gh\/wes\/v1\/",
+  "Docs url": "https:\/\/docs.cancergenomicscloud.org\/wes-api-overview",
+  "Org url": "https:\/\/www.sevenbridges.com"
+ },
+ {
+  "Tool name": "Seven Bridges",
+  "GA4GH product implemented": "Passports",
+  "Organization": "Seven Bridges",
+  "Tool url": "https:\/\/www.sevenbridges.com\/platform\/?_gl=1*1lsde0y*_up*MQ..*_ga*MTkzNjAxNjQ0OS4xNjkzMjMxNzAw*_ga_5DR4QFF4MD*MTY5MzIzMTY5OS4xLjEuMTY5MzIzMTcwOS4wLjAuMA.."
+ },
+ {
+  "GA4GH product implemented": "Passports",
+  "Organization": "Seven Bridges",
+  "Contact": "Michele Mattioni",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Tool Registry Service (TRS)",
+  "Organization": "Seven Bridges",
+  "Contact": "Michele Mattioni",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "Solve-RD",
+  "Status": "Missing"
+ },
+ {
+  "GA4GH product implemented": "Beacon",
+  "Organization": "SPHN",
+  "DP?": "x",
+  "Contact": "Katrin",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "SPHN",
+  "DP?": "x",
+  "Contact": "Katrin",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "Tool name": "ENCODE RNAExpression report",
+  "GA4GH product implemented": "rnaget",
+  "Organization": "The Encyclopedia of DNA Elements (ENCODE)",
+  "DP?": "x",
+  "Tool url": "https:\/\/www.encodeproject.org\/rnaget-report\/?type=RNAExpression"
+ },
+ {
+  "GA4GH product implemented": "htsget",
+  "Organization": "University of Melbourne",
+  "Status": "Missing"
+ },
+ {
+  "GA4GH product implemented": "htsget",
+  "Organization": "University of Oxford",
+  "Status": "Missing"
+ },
+ {
+  "Tool name": "refgenie",
+  "GA4GH product implemented": "refget",
+  "Organization": "University of Virginia",
+  "Tool url": "https:\/\/refgenie.databio.org\/en\/latest\/pull\/"
+ },
+ {
+  "Tool name": "Variant Interpretation for Cancer Consortium (VICC) Meta-Knowledgebase (v1)",
+  "GA4GH product implemented": "Beacon",
+  "Organization": "Variant Interpretation for Cancer Consortium (VICC)",
+  "DP?": "x",
+  "Tool url": "https:\/\/search.cancervariants.org\/#*"
+ },
+ {
+  "Tool name": "Variant Interpretation for Cancer Consortium (VICC) Meta-Knowledgebase (v1)",
+  "GA4GH product implemented": "Service Info",
+  "Organization": "Variant Interpretation for Cancer Consortium (VICC)",
+  "DP?": "x",
+  "Tool url": "https:\/\/search.cancervariants.org\/#*"
+ },
+ {
+  "Tool name": "Variant Interpretation for Cancer Consortium (VICC) Meta-Knowledgebase (v1)",
+  "GA4GH product implemented": "Service Registry",
+  "Organization": "Variant Interpretation for Cancer Consortium (VICC)",
+  "DP?": "x",
+  "Tool url": "https:\/\/search.cancervariants.org\/#*"
+ },
+ {
+  "Tool name": "Variant Interpretation for Cancer Consortium (VICC) Meta-Knowledgebase (v1)",
+  "GA4GH product implemented": "Variation Representation (VRS)",
+  "Organization": "Variant Interpretation for Cancer Consortium (VICC)",
+  "DP?": "x",
+  "Tool url": "https:\/\/search.cancervariants.org\/#*"
+ },
+ {
+  "Tool name": "Seven Bridges Platform",
+  "GA4GH product implemented": "DRS",
+  "Organization": "Velsera",
+  "Tool url": "https:\/\/www.sevenbridges.com\/platform\/?_gl=1*1lsde0y*_up*MQ..*_ga*MTkzNjAxNjQ0OS4xNjkzMjMxNzAw*_ga_5DR4QFF4MD*MTY5MzIzMTY5OS4xLjEuMTY5MzIzMTcwOS4wLjAuMA.."
+ },
+ {
+  "GA4GH product implemented": "Data Repository Service (DRS)",
+  "Organization": "Verily",
+  "Status": "Emailed again 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Passports",
+  "Organization": "Verily",
+  "Status": "Emailed again 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Workflow Execution Service (WES)",
+  "Organization": "Verily",
+  "Status": "Emailed again 8\/15"
+ },
+ {
+  "GA4GH product implemented": "CRAM",
+  "Organization": "Wellcome Sanger Institute",
+  "Contact": "John Boyle",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Data Use Ontology (DUO)",
+  "Organization": "Wellcome Sanger Institute",
+  "Contact": "John Boyle",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "htsget",
+  "Organization": "Wellcome Sanger Institute",
+  "Contact": "John Boyle",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Phenopackets",
+  "Organization": "Wellcome Sanger Institute",
+  "Contact": "John Boyle",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "refget",
+  "Organization": "Wellcome Sanger Institute",
+  "Contact": "John Boyle",
+  "Status": "Emailed 8\/15"
+ },
+ {
+  "GA4GH product implemented": "Framework",
+  "Organization": "World Economic Forum",
+  "Status": "Missing"
+ },
+ {
+  "Tool name": "htsjdk",
+  "GA4GH product implemented": "crypt4gh",
+  "Tool url": "https:\/\/github.com\/samtools\/htsjdk"
+ }
+],
+"Implementation Tracking":[
+ {
+  "Column1": "LEGEND\nf: Forthcoming\nx: Completed"
+ },
+ {
+  "Completed:": "Cloud",
+  "32": "LSG",
+  "Clinical:": "Security",
+  "Column17": "DURI",
+  "Column19": "REWS",
+  "Column21": "GKS",
+  "Column23": "Cl\/Ph",
+  "Column24": "Discovery"
+ },
+ {
+  "Column2": "Phase",
+  "Column3": "Research Data",
+  "Column4": "Clinical Data",
+  "Column5": "Type",
+  "Completed:": "TES",
+  "129": "TRS",
+  "Column8": "DRS",
+  "Forthcoming:": "WES",
+  "32": "CRAM",
+  "Column11": "Crypt4GH",
+  "Research:": "htsget",
+  "0": "refget",
+  "Column14": "RNAGet",
+  "Clinical:": "DSIP",
+  "0": "AAI",
+  "Column17": "Passports",
+  "Column18": "DUO",
+  "Column19": "MRCG",
+  "Column20": "Framework",
+  "Column21": "VRS",
+  "Column22": "VA",
+  "Column23": "Phenopackets",
+  "Column24": "Service Registry \/ Info",
+  "Column25": "Beacon V1",
+  "Column26": "Data Connect"
+ },
+ {
+  "Column1": "AMED GEM-Japan",
+  "Column2": 2,
+  "Column4": "x",
+  "Column5": "DP",
+  "129": "f",
+  "Column8": "f",
+  "Forthcoming:": "f",
+  "32": "f",
+  "Research:": "f",
+  "Column17": "x?",
+  "Column18": "x",
+  "Column20": "x",
+  "Column21": "f",
+  "Column23": "x"
+ },
+ {
+  "Column1": "CanDIG",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "Column8": "x",
+  "Forthcoming:": "f",
+  "32": "x",
+  "Research:": "f",
+  "Column14": "x",
+  "Clinical:": "x",
+  "Column17": "f",
+  "Column18": "x",
+  "Column20": "x",
+  "Column21": "f",
+  "Column23": "x",
+  "Column24": "f",
+  "Column25": "x"
+ },
+ {
+  "Column1": "EJP RD",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "Completed:": "x",
+  "Forthcoming:": "x",
+  "32": "x",
+  "Column11": "x",
+  "Research:": "x",
+  "0": "x",
+  "0": "x",
+  "Column17": "x",
+  "Column18": "x",
+  "Column20": "x",
+  "Column22": "x",
+  "Column23": "x",
+  "Column25": "x"
+ },
+ {
+  "Column1": "HDR UK",
+  "Column2": 3,
+  "Column5": "Other - Research",
+  "Column20": "x"
+ },
+ {
+  "Column1": "Horizon-2020 CORBEL project",
+  "Column2": 3,
+  "Column5": "Other - Research",
+  "Column20": "x"
+ },
+ {
+  "Column1": "ICGC ARGO",
+  "Column2": 2,
+  "Column5": "DP",
+  "Forthcoming:": "x",
+  "Column20": "x",
+  "Column25": "x"
+ },
+ {
+  "Column1": "World Economic Forum",
+  "Column2": 3,
+  "Column5": "Other - Research",
+  "Column20": "x"
+ },
+ {
+  "Column1": "All of Us Research Program",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "129": "f",
+  "Column8": "f",
+  "Forthcoming:": "f",
+  "32": "f",
+  "Research:": "f",
+  "Column17": "f"
+ },
+ {
+  "Column1": "Amazon Web Service",
+  "Column2": 3,
+  "Column3": "x",
+  "Column4": "x",
+  "Column5": "Other - Commercial",
+  "0": "x"
+ },
+ {
+  "Column1": "Australian Genomics",
+  "Column2": 2,
+  "Column4": "x",
+  "Column5": "DP",
+  "32": "x",
+  "Column11": "x",
+  "Research:": "x",
+  "0": "x",
+  "0": "f",
+  "Column17": "f",
+  "Column18": "x",
+  "Column25": "x"
+ },
+ {
+  "Column1": "Autism Sharing Initiative",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "Column24": "x",
+  "Column26": "x"
+ },
+ {
+  "Column1": "BRCA Exchange",
+  "Column2": 2,
+  "Column3": "x",
+  "Column4": "x",
+  "Column5": "DP",
+  "Column21": "x",
+  "Column25": "x"
+ },
+ {
+  "Column1": "Broad Institute",
+  "Column2": 1,
+  "Column3": "x",
+  "Column5": "HI",
+  "129": "x",
+  "Column8": "x",
+  "Forthcoming:": "x",
+  "32": "x",
+  "Research:": "x",
+  "0": "x",
+  "Column17": "x",
+  "Column18": "x",
+  "Column19": "x"
+ },
+ {
+  "Column1": "CalTech",
+  "Column2": 3,
+  "Column3": "x",
+  "Column5": "Other - Research",
+  "Column14": "x"
+ },
+ {
+  "Column1": "Cafe Variome",
+  "Column2": 3,
+  "Column4": "x",
+  "Column5": "Other - Research",
+  "Column23": "x"
+ },
+ {
+  "Column1": "Centre for Genomic Regulation",
+  "Column2": 3,
+  "Column4": "x",
+  "Column5": "Other - Research",
+  "Column14": "x"
+ },
+ {
+  "Column1": "ClinGen",
+  "Column2": 2,
+  "Column3": "x",
+  "Column4": "x",
+  "Column5": "DP",
+  "Column21": "f",
+  "Column22": "f"
+ },
+ {
+  "Column1": "Danish National Genome Center",
+  "Column2": 3,
+  "Column4": "x",
+  "Column5": "Other - Research"
+ },
+ {
+  "Column1": "DNAstack",
+  "Column2": 3,
+  "Column3": "x",
+  "Column5": "Other - Commercial",
+  "129": "x",
+  "Column8": "x",
+  "Forthcoming:": "x",
+  "0": "x",
+  "Column17": "x",
+  "Column24": "x",
+  "Column25": "x"
+ },
+ {
+  "Column1": "Dockstore",
+  "Column2": 3,
+  "Column3": "x",
+  "Column5": "Other - Research",
+  "129": "x"
+ },
+ {
+  "Column1": "Elimu Informatics",
+  "Column2": 3,
+  "Column4": "x",
+  "Column5": "Other - Commercial",
+  "Research:": "x"
+ },
+ {
+  "Column1": "ELIXIR - Beacon",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "0": "x",
+  "Column17": "x",
+  "Column24": "x",
+  "Column25": "x"
+ },
+ {
+  "Column1": "ELIXIR - Biocontainers",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "129": "x"
+ },
+ {
+  "Column1": "ELIXIR - Biosamples",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "Column23": "x"
+ },
+ {
+  "Column1": "ELIXIR - Cloud & AAI",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "Completed:": "x",
+  "129": "f",
+  "Forthcoming:": "x",
+  "Research:": "f",
+  "0": "x",
+  "Column17": "x"
+ },
+ {
+  "Column1": "ELIXIR - EGA",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "Column11": "x",
+  "Research:": "x",
+  "0": "x",
+  "Column17": "x",
+  "Column18": "x"
+ },
+ {
+  "Column1": "ELIXIR - REMS",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "Column18": "f"
+ },
+ {
+  "Column1": "EMBL-EBI",
+  "Column2": 1,
+  "Column3": "x",
+  "Column5": "HI",
+  "Column8": "f",
+  "0": "x",
+  "Column14": "x",
+  "Column18": "x",
+  "Column23": "x"
+ },
+ {
+  "Column1": "ENCODE",
+  "Column2": 3,
+  "Column3": "x",
+  "Column5": "Other - Research",
+  "Column14": "x"
+ },
+ {
+  "Column1": "Epishare",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "Column8": "x",
+  "Forthcoming:": "x",
+  "Column14": "x",
+  "Column18": "x",
+  "Column23": "x",
+  "Column24": "x"
+ },
+ {
+  "Column1": "EUCanCAN",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP"
+ },
+ {
+  "Column1": "FinnGen",
+  "Column2": 3,
+  "Column3": "x",
+  "Column5": "Other - Research"
+ },
+ {
+  "Column1": "France Genomique",
+  "Column2": 3,
+  "Column5": "Other - Research"
+ },
+ {
+  "Column1": "GenomeDE",
+  "Column2": 3,
+  "Column5": "Other - Research"
+ },
+ {
+  "Column1": "Genomic Medicine Sweden",
+  "Column2": 3,
+  "Column5": "Other - Research"
+ },
+ {
+  "Column1": "Genomics England",
+  "Column2": 2,
+  "Column3": "x",
+  "Column4": "x",
+  "Column5": "DP",
+  "129": "x",
+  "Forthcoming:": "x",
+  "32": "x",
+  "Research:": "x",
+  "0": "x",
+  "Column17": "x",
+  "Column18": "f"
+ },
+ {
+  "Column1": "H3Africa",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "32": "x",
+  "Column11": "x",
+  "Column18": "x",
+  "Column25": "x"
+ },
+ {
+  "Column1": "HPO Case Annotator",
+  "Column2": 3,
+  "Column5": "Other - Research",
+  "Column23": "x"
+ },
+ {
+  "Column1": "Human Cell Atlas",
+  "Column2": 2,
+  "Column5": "DP",
+  "Column8": "x"
+ },
+ {
+  "Column1": "IHEC Data Portal",
+  "Column2": 3,
+  "Column5": "Other - Research",
+  "Column14": "x"
+ },
+ {
+  "Column1": "Illumina",
+  "Column2": 3,
+  "Column5": "Other - Commercial",
+  "129": "x",
+  "Column8": "x",
+  "Forthcoming:": "x",
+  "32": "x"
+ },
+ {
+  "Column1": "LIRICAL",
+  "Column2": 3,
+  "Column5": "Other - Research",
+  "Column23": "x"
+ },
+ {
+  "Column1": "Matchmaker Exchange",
+  "Column2": 2,
+  "Column5": "DP"
+ },
+ {
+  "Column1": "Monarch Initiative",
+  "Column2": 2,
+  "Column5": "DP",
+  "Column23": "x"
+ },
+ {
+  "Column1": "NCI CRDC",
+  "Column2": 2,
+  "Column5": "DP"
+ },
+ {
+  "Column1": "NCI GDC",
+  "Column2": 2,
+  "Column5": "DP"
+ },
+ {
+  "Column1": "NHLBI TOPMed",
+  "Column2": 2,
+  "Column3": "x",
+  "Column5": "DP",
+  "129": "x",
+  "Column8": "x",
+  "Forthcoming:": "x",
+  "32": "x",
+  "Column18": "x"
+ },
+ {
+  "Column1": "OICR",
+  "Column2": 1,
+  "Column5": "HI",
+  "32": "x"
+ },
+ {
+  "Column1": "Santa Cruz",
+  "Column2": 3,
+  "Column5": "Other - Research"
+ },
+ {
+  "Column1": "Seven Bridges",
+  "Column2": 3,
+  "Column3": "x",
+  "Column4": "x",
+  "Column5": "Other - Commercial",
+  "129": "x",
+  "Column8": "x",
+  "Forthcoming:": "x",
+  "Column17": "x"
+ },
+ {
+  "Column1": "Solve-RD",
+  "Column2": 3,
+  "Column5": "Other - Research",
+  "Column23": "x"
+ },
+ {
+  "Column1": "SPHN",
+  "Column2": 2,
+  "Column5": "DP",
+  "Completed:": "f",
+  "Column8": "f",
+  "Forthcoming:": "f",
+  "Research:": "f"
+ },
+ {
+  "Column1": "University of Melbourne",
+  "Column2": 3,
+  "Column5": "Other - Research",
+  "Research:": "x"
+ },
+ {
+  "Column1": "University of Oxford",
+  "Column2": 3,
+  "Column5": "Other - Research",
+  "Research:": "x"
+ },
+ {
+  "Column1": "Verily",
+  "Column2": 3,
+  "Column3": "x",
+  "Column5": "Other - Commercial",
+  "Column8": "x",
+  "Forthcoming:": "x",
+  "Column17": "x"
+ },
+ {
+  "Column1": "VICC",
+  "Column2": 2,
+  "Column5": "DP",
+  "Column21": "x",
+  "Column22": "f",
+  "Column25": "f"
+ },
+ {
+  "Column1": "Wellcome Sanger Institute",
+  "Column2": 1,
+  "Column3": "x",
+  "Column5": "HI",
+  "32": "x",
+  "Research:": "x",
+  "0": "x",
+  "Column18": "x",
+  "Column23": "x"
+ },
+ {
+  "Column1": "Academy of Science of South Africa",
+  "Column2": 3,
+  "Column5": "Other - Research",
+  "129": "x",
+  "Column8": "x",
+  "Forthcoming:": "x",
+  "Column18": "x",
+  "Column20": "x"
+ },
+ {
+  "Column1": "DNA.Land (defunct)",
+  "Column2": 3,
+  "Column5": "Other - Commercial",
+  "Column20": "x"
+ }
+],
+"Sheet7":[
+ {
+  "Status": "Complete",
+  "DP": "ELIXIR Beacon",
+  "Beacon API": "x",
+  "DUO": "x",
+  "htsget": "x",
+  "DRS": "x",
+  "Passport": "x",
+  "WES": "x",
+  "TRS": "x",
+  "Crypt4GH": "x",
+  "AAI": "x",
+  "refget": "x",
+  "Phenopackets": "x",
+  "rnaget": "x",
+  "Service Info\/Registry": "x",
+  "TES": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "EJP RD",
+  "Beacon API": "x",
+  "CRAM": "x",
+  "DUO": "x",
+  "htsget": "x",
+  "Passport": "x",
+  "WES": "x",
+  "TRS": "x",
+  "Crypt4GH": "x",
+  "Phenopackets": "x",
+  "Service Info\/Registry": "x",
+  "TES": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "HCA",
+  "DUO": "x",
+  "DRS": "x",
+  "WES": "x",
+  "TRS": "x",
+  "AAI": "x",
+  "TES": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "EPISHARE",
+  "DRS": "x",
+  "WES": "x",
+  "Crypt4GH": "x",
+  "Phenopackets": "x",
+  "rnaget": "x",
+  "Service Info\/Registry": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "Candig",
+  "Beacon API": "x",
+  "CRAM": "x",
+  "DUO": "x",
+  "htsget": "x",
+  "DRS": "x",
+  "Phenopackets": "x",
+  "rnaget": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "Monarch",
+  "VRS": "x",
+  "Phenopackets": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "MME",
+  "Beacon API": "x",
+  "CRAM": "x",
+  "htsget": "x",
+  "Phenopackets": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "SPHN",
+  "Beacon API": "x",
+  "Phenopackets": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "VICC",
+  "Beacon API": "x",
+  "VRS": "x",
+  "Service Info\/Registry": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "BRCA",
+  "Beacon API": "x",
+  "VRS": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "Clingen",
+  "VRS": "x"
+ },
+ {
+  "Status": "complete",
+  "DP": "AGHA",
+  "DUO": "x",
+  "htsget": "x",
+  "machine-readable consents": "x"
+ },
+ {
+  "Status": "complete",
+  "DP": "AoU",
+  "Beacon API": "x",
+  "CRAM": "x",
+  "DUO": "x",
+  "htsget": "x",
+  "DRS": "x",
+  "Crypt4GH": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "H3Africa",
+  "Beacon API": "x",
+  "CRAM": "x",
+  "DUO": "x",
+  "Crypt4GH": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "ARGO",
+  "Beacon API": "x",
+  "CRAM": "x",
+  "WES": "x",
+  "TRS": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "BRCA",
+  "WES": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "Genomics England",
+  "CRAM": "x",
+  "htsget": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "GEM Japan",
+  "CRAM": "x",
+  "DUO": "x"
+ },
+ {
+  "Status": "Complete",
+  "DP": "GDC"
+ },
+ {
+  "Status": "Completed",
+  "DP": "ASI",
+  "Data Connect": "x",
+  "Service Info\/Registry": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "CRDC",
+  "htsget": "x",
+  "Data Connect": "x",
+  "TRS": "x",
+  "VRS": "x",
+  "Phenopackets": "x",
+  "TES": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "ARGO",
+  "DUO": "x",
+  "DRS": "x",
+  "Data Connect": "x",
+  "VRS": "x",
+  "Phenopackets": "x",
+  "Service Info\/Registry": "x",
+  "TES": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "Genomics England",
+  "Data Connect": "x",
+  "TRS": "x",
+  "VRS": "x",
+  "TES": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "VICC",
+  "DUO": "x",
+  "Passport": "x",
+  "Phenopackets": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "ELIXIR Beacon",
+  "CRAM": "x",
+  "Data Connect": "x",
+  "VRS": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "SPHN",
+  "Data Connect": "x",
+  "AAI": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "Candig",
+  "AAI": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "GDC",
+  "AAI": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "EPISHARE",
+  "DUO": "x",
+  "Data Connect": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "ELIXIR AAI",
+  "Beacon API": "x",
+  "Data Connect": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "Monarch",
+  "Beacon API": "x",
+  "Data Connect": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "MME",
+  "Data Connect": "x"
+ },
+ {
+  "Status": "Expected but not yet planned",
+  "DP": "HCA",
+  "CRAM": "x",
+  "htsget": "x"
+ },
+ {
+  "Status": "Ongoing",
+  "DP": "ELIXIR AAI",
+  "DRS": "x",
+  "Passport": "x",
+  "WES": "x",
+  "TRS": "x",
+  "AAI": "x",
+  "Service Info\/Registry": "x",
+  "TES": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "EUCANCAN",
+  "Beacon API": "x",
+  "CRAM": "x",
+  "DRS": "x",
+  "Passport": "x",
+  "Data Connect": "x",
+  "WES": "x",
+  "TRS": "x",
+  "AAI": "x",
+  "VRS": "x",
+  "Phenopackets": "x",
+  "Service Info\/Registry": "x",
+  "TES": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "GDC",
+  "CRAM": "x",
+  "DUO": "x",
+  "DRS": "x",
+  "Passport": "x",
+  "WES": "x",
+  "TRS": "x",
+  "VRS": "x",
+  "Phenopackets": "x",
+  "TES": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "Genomics England",
+  "DRS": "x",
+  "WES": "x",
+  "TRS": "x",
+  "TES": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "SPHN",
+  "htsget": "x",
+  "DRS": "x",
+  "TRS": "x",
+  "TES": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "H3Africa",
+  "Passport": "x",
+  "Data Connect": "x",
+  "AAI": "x",
+  "VRS": "x",
+  "Phenopackets": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "GEM Japan",
+  "Beacon API": "x",
+  "Phenopackets": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "Candig",
+  "WES": "x",
+  "refget": "x",
+  "VRS": "x",
+  "Service Info\/Registry": "x"
+ },
+ {
+  "Status": "planned",
+  "DP": "AGHA",
+  "DRS": "x",
+  "Passport": "x",
+  "WES": "x",
+  "refget": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "ASI",
+  "Beacon API": "x",
+  "DUO": "x",
+  "DRS": "x",
+  "Passport": "x",
+  "WES": "x",
+  "TRS": "x",
+  "Crypt4GH": "x",
+  "AAI": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "TOPMed",
+  "Passport": "x",
+  "AAI": "x",
+  "Service Info\/Registry": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "ARGO",
+  "Passport": "x",
+  "AAI": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "EJP RD",
+  "DRS": "x",
+  "AAI": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "MME",
+  "AAI": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "Genomics England",
+  "WES": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "CRDC",
+  "DUO": "x",
+  "Passport": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "Genomics England",
+  "DUO": "x",
+  "Passport": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "Monarch",
+  "DUO": "x",
+  "Passport": "x"
+ },
+ {
+  "Status": "planned",
+  "DP": "AoU",
+  "Passport": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "HCA",
+  "Passport": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "EPISHARE",
+  "CRAM": "x",
+  "htsget": "x"
+ },
+ {
+  "Status": "Planned",
+  "DP": "Genomics England",
+  "Beacon API": "x"
+ }
+],
+"Partners list":[
+ {
+  "Column1": "Initiative Name",
+  "Column2": "DP",
+  "Domain Area": "Ca",
+  "Column4": "RD",
+  "Column5": "Bio",
+  "Column6": "Cx",
+  "Column7": "Plfrm",
+  "Column8": "Pop",
+  "Column9": "BB",
+  "Sector": "HC",
+  "Column11": "Re",
+  "Column12": "Ind",
+  "Column13": "SDO",
+  "Community Group": "GHIF",
+  "Column15": "CC",
+  "Column16": "Ph",
+  "Column17": "CAG",
+  "Column18": "Covid",
+  "Column19": "Region",
+  "Column20": "Genomics Only",
+  "Column21": "Matchmaker Exchange",
+  "Column22": "Legacy Sites",
+  "Column23": "ICDA",
+  "Column24": "IHCC",
+  "Column25": "GA4GH"
+ },
+ {
+  "Column1": "All of Us Research Program",
+  "Column2": "x",
+  "Column6": "x",
+  "Column8": "x",
+  "Column9": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column18": "x",
+  "Column19": "USA",
+  "Column22": "x"
+ },
+ {
+  "Column1": "Australian Genomics",
+  "Column2": "x",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column6": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column15": "x",
+  "Column19": "Asia Pacific",
+  "Column20": "x",
+  "Column22": "x"
+ },
+ {
+  "Column1": "Autism Sharing Initiative",
+  "Column2": "x",
+  "Column8": "x",
+  "Column11": "x",
+  "Column19": "Canada, US"
+ },
+ {
+  "Column1": "Biomedical Research Hub",
+  "Column2": "x"
+ },
+ {
+  "Column1": "Canadian Distributed Infrastructure for Genomics (CanDIG)",
+  "Column2": "x",
+  "Domain Area": "x",
+  "Column7": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column15": "x",
+  "Column18": "x",
+  "Column19": "Canada",
+  "Column20": "x"
+ },
+ {
+  "Column1": "Clinical Genome Resource (ClinGen)",
+  "Column2": "x",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column6": "x",
+  "Column7": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column15": "x",
+  "Column19": "USA",
+  "Column20": "x"
+ },
+ {
+  "Column1": "ELIXIR Beacon",
+  "Column2": "x",
+  "Column7": "x",
+  "Column11": "x",
+  "Column19": "Europe"
+ },
+ {
+  "Column1": "ELIXIR Cloud and AAI for Human Data",
+  "Column2": "x",
+  "Column7": "x",
+  "Column11": "x",
+  "Column19": "Europe"
+ },
+ {
+  "Column1": "ENA \/ EVA \/ EGA",
+  "Column2": "x",
+  "Column7": "x",
+  "Column11": "x",
+  "Column19": "Europe",
+  "Column20": "x"
+ },
+ {
+  "Column1": "EOSC4Cancer: A European-wide foundation to accelerate Data-driven Cancer Research.",
+  "Column2": "x"
+ },
+ {
+  "Column1": "EpiShare",
+  "Column2": "x",
+  "Column8": "x",
+  "Column11": "x",
+  "Column19": "International"
+ },
+ {
+  "Column1": "European Genomic Data Infrastructure (GDI)",
+  "Column2": "x"
+ },
+ {
+  "Column1": "European Joint Programme on Rare Disease",
+  "Column2": "x",
+  "Column4": "x",
+  "Column11": "x",
+  "Column19": "Europe"
+ },
+ {
+  "Column1": "Genomics England",
+  "Column2": "x",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column5": "x",
+  "Column6": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column15": "x",
+  "Column19": "UK",
+  "Column20": "x",
+  "Column22": "x"
+ },
+ {
+  "Column1": "Human Cell Atlas",
+  "Column2": "x",
+  "Column7": "x",
+  "Column8": "x",
+  "Column11": "x",
+  "Column18": "x",
+  "Column19": "International"
+ },
+ {
+  "Column1": "Human Heredity and Health in Africa (H3Africa)\n",
+  "Column2": "x",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column5": "x",
+  "Column6": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "Africa",
+  "Column22": "x"
+ },
+ {
+  "Column1": "Human Pangenome Project",
+  "Column2": "x"
+ },
+ {
+  "Column1": "ICGC-ARGO",
+  "Column2": "x",
+  "Domain Area": "x",
+  "Column11": "x",
+  "Column15": "x",
+  "Column19": "International",
+  "Column20": "x"
+ },
+ {
+  "Column1": "IPCHiP",
+  "Column2": "x"
+ },
+ {
+  "Column1": "Matchmaker Exchange",
+  "Column2": "x",
+  "Column4": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Column19": "International",
+  "Column20": "x"
+ },
+ {
+  "Column1": "Monarch Initiative",
+  "Column2": "x",
+  "Column5": "x",
+  "Column7": "x",
+  "Column11": "x",
+  "Column18": "x",
+  "Column19": "USA"
+ },
+ {
+  "Column1": "National Cancer Institute Cancer Research Data Commons (NCI CRDC)",
+  "Column2": "x",
+  "Domain Area": "x",
+  "Column11": "x",
+  "Column15": "x",
+  "Column19": "USA"
+ },
+ {
+  "Column1": "NHLBI BioData Catalyst (BDC)",
+  "Column2": "x"
+ },
+ {
+  "Column1": "NIH Cloud Platform Interoperability (NCPI) project",
+  "Column2": "x"
+ },
+ {
+  "Column1": "Qatar Genome",
+  "Column2": "x"
+ },
+ {
+  "Column1": "Repository of the International Fetal Genomics Consortium (RIFGC)",
+  "Column2": "x"
+ },
+ {
+  "Column1": "Roche ImCore",
+  "Column2": "x"
+ },
+ {
+  "Column1": "Trans-Omics for Precision Medicine (TOPMed) \/\/ BioData Catalyst",
+  "Column2": "x",
+  "Column6": "x",
+  "Column7": "x",
+  "Column11": "x",
+  "Column19": "USA"
+ },
+ {
+  "Column1": "Variant Interpretation for Cancer Consortium (VICC)",
+  "Column2": "x",
+  "Domain Area": "x",
+  "Column7": "x",
+  "Column11": "x",
+  "Column15": "x",
+  "Column19": "International",
+  "Column20": "x"
+ },
+ {
+  "Column1": "1+ Million Genomes",
+  "Column9": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Column19": "Europe",
+  "Column20": "x"
+ },
+ {
+  "Column1": "AnVIL"
+ },
+ {
+  "Column1": "BBMRI-ERIC",
+  "Column9": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Column19": "Europe"
+ },
+ {
+  "Column1": "Beyond 1 Million Genomes",
+  "Column7": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Column19": "Europe",
+  "Column20": "x"
+ },
+ {
+  "Column1": "BigMed",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column6": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "Europe"
+ },
+ {
+  "Column1": "BIPMed",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column5": "x",
+  "Column6": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "South America"
+ },
+ {
+  "Column1": "BRCA Challenge",
+  "Domain Area": "x",
+  "Column11": "x",
+  "Column15": "x",
+  "Column19": "International",
+  "Column20": "x"
+ },
+ {
+  "Column1": "Broad",
+  "Column22": "x"
+ },
+ {
+  "Column1": "CDISC",
+  "Sector": "x",
+  "Column13": "x",
+  "Column19": "USA"
+ },
+ {
+  "Column1": "Columbia University peri-\/prenatal data sharing initiative",
+  "Column8": "x",
+  "Column11": "x",
+  "Column19": "International"
+ },
+ {
+  "Column1": "Common Infrastructure for National Cohorts in Europe, Canada, and Africa (CINECA)",
+  "Column7": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "Canada, Europe"
+ },
+ {
+  "Column1": "Danish National Genome Center",
+  "Column4": "x",
+  "Column8": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "Europe",
+  "Column20": "x",
+  "Column22": "x"
+ },
+ {
+  "Column1": "DECIPHER",
+  "Column4": "x",
+  "Column21": "x"
+ },
+ {
+  "Column1": "ELIXIR Hub (Strategic Partnership)",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column5": "x",
+  "Column6": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column15": "x",
+  "Column18": "x",
+  "Column19": "Europe"
+ },
+ {
+  "Column1": "Estonian Genomics",
+  "Column6": "x",
+  "Column8": "x",
+  "Column9": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "Europe",
+  "Column20": "x"
+ },
+ {
+  "Column1": "EUCANCan",
+  "Domain Area": "x",
+  "Column11": "x",
+  "Column15": "x",
+  "Column19": "Canada, Europe"
+ },
+ {
+  "Column1": "FinnGen",
+  "Column8": "x",
+  "Column9": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "Europe",
+  "Column20": "x",
+  "Column22": "x"
+ },
+ {
+  "Column1": "France Genomique",
+  "Column22": "x"
+ },
+ {
+  "Column1": "Gabriella Miller - Kids First"
+ },
+ {
+  "Column1": "GeneMatcher",
+  "Column4": "x",
+  "Column21": "x"
+ },
+ {
+  "Column1": "GENIE"
+ },
+ {
+  "Column1": "GEnome Medical alliance Japan (GEM Japan)",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column5": "x",
+  "Column6": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column15": "x",
+  "Column19": "Asia Pacific",
+  "Column20": "x",
+  "Column22": "x"
+ },
+ {
+  "Column1": "Genomic Medicine Sweden",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column6": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "Europe",
+  "Column20": "x",
+  "Column22": "x"
+ },
+ {
+  "Column1": "Global Genes \/ Rare-X",
+  "Column4": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Column19": "International",
+  "Column20": "x"
+ },
+ {
+  "Column1": "Health Data Research UK (HDR UK) \/\/ International COVID-19 Data Research Alliance",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column5": "x",
+  "Column6": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column18": "x",
+  "Column19": "UK"
+ },
+ {
+  "Column1": "Health Level Seven International (HL7) ",
+  "Sector": "x",
+  "Column13": "x",
+  "Column19": "USA"
+ },
+ {
+  "Column1": "Human Genome Organization (HUGO; includes HVP, HGVS, LOVD)",
+  "Column13": "x",
+  "Column19": "International",
+  "Column20": "x"
+ },
+ {
+  "Column1": "Human Phenotype Ontology",
+  "Column13": "x",
+  "Column18": "x",
+  "Column19": "International"
+ },
+ {
+  "Column1": "IndiGen",
+  "Column8": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "Asia Pacific",
+  "Column20": "x"
+ },
+ {
+  "Column1": "International Common Disease Alliance (ICDA)",
+  "Column6": "x",
+  "Column11": "x",
+  "Column18": "x",
+  "Column19": "International"
+ },
+ {
+  "Column1": "International HundredK+ Cohorts Consortium (IHCC) \/\/ Global Genomic Medicine Collaborative (G2MC)",
+  "Column8": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "International",
+  "Column20": "x"
+ },
+ {
+  "Column1": "International Organization for Standardization (ISO)",
+  "Sector": "x",
+  "Column11": "x",
+  "Column12": "x",
+  "Column13": "x",
+  "Column19": "International"
+ },
+ {
+  "Column1": "International Society for Biological and Environmental Repositories",
+  "Column9": "x",
+  "Column19": "International"
+ },
+ {
+  "Column1": "IRDiRC",
+  "Column4": "x",
+  "Column19": "International"
+ },
+ {
+  "Column1": "IRUD: Integrating Knowledge for Diagnoses",
+  "Column4": "x",
+  "Column21": "x"
+ },
+ {
+  "Column1": "Medical Genome Initiative (MGI) ",
+  "Sector": "x",
+  "Column19": "Canada, US",
+  "Column20": "x"
+ },
+ {
+  "Column1": "MyGene2",
+  "Column4": "x",
+  "Column21": "x"
+ },
+ {
+  "Column1": "National Cancer Institute Genomic Data Commons (NCI GDC)",
+  "Domain Area": "x",
+  "Column11": "x",
+  "Column15": "x",
+  "Column19": "USA",
+  "Column20": "x"
+ },
+ {
+  "Column1": "NCPI",
+  "Column22": "x"
+ },
+ {
+  "Column1": "Nordic Alliance for Clinical Genomics",
+  "Sector": "x",
+  "Community Group": "x",
+  "Column19": "Europe",
+  "Column20": "x"
+ },
+ {
+  "Column1": "OICR",
+  "Column22": "x"
+ },
+ {
+  "Column1": "PatientMatcher",
+  "Column4": "x",
+  "Column21": "x"
+ },
+ {
+  "Column1": "PhenomeCentral",
+  "Column4": "x",
+  "Column21": "x"
+ },
+ {
+  "Column1": "Public Health Alliance for Genomic Epidemiology (PHA4GE)",
+  "Column8": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Column13": "x",
+  "Column18": "x",
+  "Column19": "International"
+ },
+ {
+  "Column1": "Qatar Genome",
+  "Column6": "x",
+  "Column8": "x",
+  "Column9": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "Asia Pacific",
+  "Column20": "x"
+ },
+ {
+  "Column1": "RD-Connect Genome-Phenome Analysis Platform",
+  "Column4": "x",
+  "Column21": "x"
+ },
+ {
+  "Column1": "Research Data Alliance (RDA)",
+  "Column11": "x",
+  "Column13": "x",
+  "Column19": "International"
+ },
+ {
+  "Column1": "Sanger",
+  "Column22": "x"
+ },
+ {
+  "Column1": "Santa Cruz",
+  "Column22": "x"
+ },
+ {
+  "Column1": "seqr",
+  "Column4": "x",
+  "Column21": "x"
+ },
+ {
+  "Column1": "SNOMED International",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column6": "x",
+  "Sector": "x",
+  "Column12": "x",
+  "Column13": "x",
+  "Column19": "International"
+ },
+ {
+  "Column1": "Swiss Personalized Health Network (SPHN)",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column5": "x",
+  "Column6": "x",
+  "Sector": "x",
+  "Column11": "x",
+  "Community Group": "x",
+  "Column19": "Europe"
+ },
+ {
+  "Column1": "The Human Pangenome Reference Consortium (HPRC)",
+  "Domain Area": "x",
+  "Column4": "x",
+  "Column5": "x",
+  "Column6": "x",
+  "Column11": "x",
+  "Column19": "International",
+  "Column20": "x"
+ },
+ {
+  "Column1": "World Economic Forum",
+  "Column8": "x",
+  "Column19": "International"
+ }
+],
+"DP Implementation Tracking":[
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "P = in Production\nD = in Development\nX = planned but not yet in development\nR = Policy developed based on REWS deliverable\nC = plan to Contribute\nGray columns = new DPs",
+  "Column2": "WORK STREAM",
+  "Column3": "All of Us",
+  "Column4": "Australian Genomics",
+  "Column5": "Autism Sharing Initiative",
+  "Column6": "Biomedical Research Hub",
+  "Column7": "CanDIG",
+  "Column8": "ClinGen",
+  "Column9": "EJP RD",
+  "Column10": "EGA",
+  "Column11": "EOSC4Cancer",
+  "Column12": "Epishare",
+  "Column13": "ELIXIR",
+  "Column14": "GDI",
+  "Column15": "Genomics England",
+  "Column16": "H3Africa",
+  "Column17": "Human Cell Atlas",
+  "Column18": "Human Pangenome Project",
+  "Column19": "ICGC ARGO",
+  "Column20": "IPCHiP",
+  "Column21": "Matchmaker Exchange",
+  "Column22": "Monarch Initiative",
+  "Column23": "NCI CRDC",
+  "Column24": "NCPI",
+  "Column25": "NHLBI BioData Catalyst",
+  "Column26": "Qatar Genome",
+  "Column27": "RIFGC",
+  "Column28": "Roche ImCore",
+  "Column29": "VICC",
+  "Column30": "FORMER DP - AMED GEM-Japan",
+  "Column31": "FORMER DP - BRCA Exchange",
+  "Column32": "FORMER DP - EUCanCAN",
+  "Column33": "FORMER DP - NCI GDC",
+  "Column34": "FORMER DP - SPHN"
+ },
+ null,
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Artificial Intelligence \/ Machine Learning",
+  "Column2": "NEW",
+  "Column14": "X",
+  "Column23": "X",
+  "Column28": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Bad Actors in Research Environments (BARE)",
+  "Column2": "DS",
+  "Column4": "C",
+  "Column10": "P",
+  "Column23": "C"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Beacon V1",
+  "Column2": "DI",
+  "Column4": "P",
+  "Column5": "D",
+  "Column7": "P",
+  "Column9": "P",
+  "Column10": "P",
+  "Column13": "P",
+  "Column16": "P",
+  "Column19": "P",
+  "Column21": "P",
+  "Column29": "P",
+  "Column30": "D",
+  "Column31": "D",
+  "Column32": "D",
+  "Column33": "D",
+  "Column34": "D"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Beacon V2",
+  "Column2": "DI",
+  "Column4": "D",
+  "Column9": "P",
+  "Column10": "D",
+  "Column11": "D",
+  "Column13": "P",
+  "Column14": "D",
+  "Column16": "X",
+  "Column19": "X",
+  "Column20": "X",
+  "Column21": "D",
+  "Column27": "X",
+  "Column28": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Browser Extensible Data (BED)",
+  "Column2": "LS"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Clinical Data Sharing and Consent",
+  "Column2": "RE",
+  "Column8": "D",
+  "Column20": "C"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Cloud Security and Privacy",
+  "Column2": "RE",
+  "Column23": "C"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Cohort Representation",
+  "Column2": "CP",
+  "Column16": "D",
+  "Column23": "C"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Consent Policy",
+  "Column2": "RE",
+  "Column4": "C"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Consent Toolkit",
+  "Column2": "RE",
+  "Column24": "X",
+  "Column27": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "COVID-19 Pandemic data sharing considerations",
+  "Column2": "RE"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "CRAM",
+  "Column2": "LS",
+  "Column3": "P",
+  "Column4": "P",
+  "Column5": "D",
+  "Column7": "P",
+  "Column9": "P",
+  "Column10": "P",
+  "Column12": "D",
+  "Column15": "P",
+  "Column16": "P",
+  "Column19": "P",
+  "Column20": "X",
+  "Column21": "P",
+  "Column23": "P",
+  "Column25": "P",
+  "Column27": "X",
+  "Column32": "D"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Crypt4GH",
+  "Column2": "LS",
+  "Column4": "D",
+  "Column9": "P",
+  "Column10": "P",
+  "Column13": "P",
+  "Column16": "P"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Data Access Committee Review Standards (DACReS) Toolkit",
+  "Column2": "RE",
+  "Column9": "C",
+  "Column23": "X",
+  "Column24": "X",
+  "Column28": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Data Connect",
+  "Column2": "DI",
+  "Column5": "P",
+  "Column6": "D",
+  "Column16": "D",
+  "Column20": "X",
+  "Column28": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Data Privacy and Security Policy",
+  "Column2": "RE"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Data Repository Service (DRS)",
+  "Column2": "CL",
+  "Column3": "D",
+  "Column4": "D",
+  "Column5": "D",
+  "Column6": "P",
+  "Column7": "P",
+  "Column9": "D",
+  "Column11": "X",
+  "Column12": "P",
+  "Column13": "P",
+  "Column15": "D",
+  "Column17": "P",
+  "Column18": "X",
+  "Column20": "X",
+  "Column23": "P",
+  "Column24": "P",
+  "Column25": "P",
+  "Column27": "X",
+  "Column28": "X",
+  "Column32": "D",
+  "Column33": "D",
+  "Column34": "P"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Data Security Infrastructure Policy (DSIP)",
+  "Column2": "DS",
+  "Column10": "P",
+  "Column14": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Data Use Ontology (DUO)",
+  "Column2": "DU",
+  "Column4": "P",
+  "Column5": "D",
+  "Column7": "P",
+  "Column9": "P",
+  "Column10": "P",
+  "Column12": "P",
+  "Column13": "P",
+  "Column14": "X",
+  "Column15": "D",
+  "Column16": "P",
+  "Column17": "D",
+  "Column22": "D",
+  "Column23": "X",
+  "Column24": "X",
+  "Column25": "D"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Diversity in Datasets",
+  "Column2": "RE"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "DSWS",
+  "Column2": "DS",
+  "Column4": "C",
+  "Column14": "X",
+  "Column18": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Engagement Framework",
+  "Column2": "RE"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Ethical Provenance Toolkit",
+  "Column2": "RE",
+  "Column28": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Ethics Review Recognition Policy",
+  "Column2": "RE"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Experiment Metadata",
+  "Column10": "X",
+  "Column16": "D",
+  "Column28": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Family History Toolkit",
+  "Column2": "CP"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "FASTQ",
+  "Column4": "P",
+  "Column9": "P",
+  "Column10": "P",
+  "Column16": "P",
+  "Column18": "X",
+  "Column23": "P"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Federated variant lookup",
+  "Column18": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "GA4GH Framework",
+  "Column2": "RE",
+  "Column7": "P",
+  "Column9": "D",
+  "Column19": "P"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "GDPR & International Health Data Sharing Forum",
+  "Column2": "RE",
+  "Column9": "C"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Genetic Discrimination Toolkit",
+  "Column2": "RE"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Genetic Variation Formats (VCF)",
+  "Column2": "GK",
+  "Column4": "P",
+  "Column9": "P",
+  "Column10": "P",
+  "Column18": "X",
+  "Column27": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "GIF",
+  "Column4": "C",
+  "Column16": "D",
+  "Column23": "C",
+  "Column24": "C",
+  "Column25": "C"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "htsget",
+  "Column2": "LS",
+  "Column3": "D",
+  "Column4": "P",
+  "Column7": "P",
+  "Column9": "P",
+  "Column10": "P",
+  "Column12": "D",
+  "Column13": "P",
+  "Column15": "P",
+  "Column21": "P",
+  "Column25": "D",
+  "Column32": "D",
+  "Column33": "D"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Machine Readable Consent Guidance (MRCG)",
+  "Column2": "RE",
+  "Column4": "D",
+  "Column14": "X",
+  "Column24": "X",
+  "Column27": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Passports \/ AAI",
+  "Column2": "DU",
+  "Column3": "D",
+  "Column4": "D",
+  "Column5": "D",
+  "Column6": "P",
+  "Column9": "P",
+  "Column10": "P",
+  "Column13": "P",
+  "Column14": "X",
+  "Column15": "D",
+  "Column16": "D",
+  "Column17": "P",
+  "Column19": "D",
+  "Column22": "D",
+  "Column23": "D",
+  "Column24": "D",
+  "Column25": "D",
+  "Column32": "D"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Pedigree",
+  "Column2": "CP",
+  "Column20": "C"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Pharmacogenomics Data Standardisation",
+  "Column2": "SG"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Phenopackets",
+  "Column2": "CP",
+  "Column4": "D",
+  "Column7": "P",
+  "Column9": "P",
+  "Column10": "P",
+  "Column12": "P",
+  "Column13": "P",
+  "Column14": "X",
+  "Column16": "D",
+  "Column17": "P",
+  "Column20": "C",
+  "Column21": "P",
+  "Column22": "P",
+  "Column23": "X",
+  "Column25": "D",
+  "Column27": "X",
+  "Column32": "D",
+  "Column33": "D"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Policy on Clinically Actionable Genomic Research Results",
+  "Column2": "RE",
+  "Column24": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Public Attitudes for Genomic Policy — Blog Posts",
+  "Column2": "RE"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "refget",
+  "Column2": "LS",
+  "Column4": "P",
+  "Column7": "D",
+  "Column13": "P"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "REWS",
+  "Column2": "RE",
+  "Column9": "P",
+  "Column18": "X",
+  "Column27": "X",
+  "Column28": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Risk Assessment Methodology for Software Stacks",
+  "Column2": "DS"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "RNAGet",
+  "Column2": "LS",
+  "Column7": "P",
+  "Column12": "P",
+  "Column13": "P",
+  "Column25": "D"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "SAM\/BAM",
+  "Column2": "LS",
+  "Column4": "P",
+  "Column9": "P",
+  "Column10": "P",
+  "Column16": "P",
+  "Column18": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Scalable VCF",
+  "Column4": "C",
+  "Column10": "X",
+  "Column25": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Sequence Annotation (SA)",
+  "Column2": "GK"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Service Registry \/ Info",
+  "Column2": "DI",
+  "Column5": "P",
+  "Column7": "D",
+  "Column9": "P",
+  "Column12": "P",
+  "Column13": "P",
+  "Column23": "X",
+  "Column25": "D",
+  "Column29": "P",
+  "Column30": "P",
+  "Column31": "P",
+  "Column32": "D",
+  "Column33": "D",
+  "Column34": "D"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Task Execution Service (TES)",
+  "Column2": "CL",
+  "Column6": "X",
+  "Column9": "P",
+  "Column11": "X",
+  "Column13": "P",
+  "Column14": "X",
+  "Column17": "P",
+  "Column18": "X",
+  "Column20": "X",
+  "Column23": "X",
+  "Column24": "P",
+  "Column27": "X",
+  "Column28": "X",
+  "Column32": "D",
+  "Column33": "D"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Tool Registry Service (TRS)",
+  "Column2": "CL",
+  "Column3": "D",
+  "Column5": "D",
+  "Column9": "P",
+  "Column11": "X",
+  "Column13": "P",
+  "Column14": "X",
+  "Column17": "P",
+  "Column18": "X",
+  "Column19": "P",
+  "Column23": "X",
+  "Column25": "P",
+  "Column27": "X",
+  "Column28": "X"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Variant Annotation (VA)",
+  "Column2": "GK",
+  "Column8": "D",
+  "Column18": "X",
+  "Column25": "x",
+  "Column27": "X",
+  "Column29": "D",
+  "Column30": "D",
+  "Column31": "D",
+  "Column32": "D",
+  "Column33": "D",
+  "Column34": "D"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Variant Benchmarking Tools",
+  "Column2": "LS"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Variation Representation (VRS)",
+  "Column2": "GK",
+  "Column7": "D",
+  "Column8": "P",
+  "Column16": "D",
+  "Column18": "X",
+  "Column22": "P",
+  "Column25": "x",
+  "Column27": "X",
+  "Column29": "P",
+  "Column30": "D",
+  "Column31": "P",
+  "Column32": "D",
+  "Column33": "D",
+  "Column34": "D"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "WGS Quality Control Standards",
+  "Column2": "LS",
+  "Column10": "P",
+  "Column20": "C"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Workflow Execution Service (WES)",
+  "Column2": "CL",
+  "Column3": "D",
+  "Column5": "D",
+  "Column6": "X",
+  "Column7": "D",
+  "Column9": "P",
+  "Column11": "X",
+  "Column12": "P",
+  "Column13": "P",
+  "Column14": "X",
+  "Column15": "D",
+  "Column17": "P",
+  "Column18": "X",
+  "Column19": "P",
+  "Column20": "X",
+  "Column23": "X",
+  "Column24": "P",
+  "Column25": "P",
+  "Column27": "X",
+  "Column28": "X",
+  "Column30": "P",
+  "Column32": "D",
+  "Column33": "D",
+  "Column34": "P"
+ },
+ {
+  "As of May 2021, the GA4GH steering committee has approved 20 technical standards, which have been implemented at organizations around the globe. Below we outline those that are in production (P) or active development (D), \nor were originally planned but are not yet in devleopment (X), within the GA4GH Driver Projects.": "Your DNA, Your Say (Participant Values Survey)",
+  "Column2": "RE"
+ }
+],
+"Intentions based on 2023 applic":[],
+"DP Plans Matrix":[
+ {
+  "Column1": "Deliverable",
+  "Column2": "AGHA",
+  "Column3": "All of Us",
+  "Column4": "ASI",
+  "DRIVER PROJECT": "BRCA Challenge",
+  "Column6": "CanDIG",
+  "Column7": "ClinGen",
+  "Column8": "EJP RD",
+  "Column9": "ELIXIR BEACON",
+  "Column10": "ENA\/EVA\/EGA",
+  "Column11": "EpiShare",
+  "Column12": "EUCANCan",
+  "Column13": "Genomics England",
+  "Column14": "GEM Japan",
+  "Column15": "H3Africa",
+  "Column16": "HCA",
+  "Column17": "ICGC-ARGO",
+  "Column18": "MME",
+  "Column19": "Monarch",
+  "Column20": "NCI GDC",
+  "Column21": "NCI CRDC",
+  "Column22": "SPHN",
+  "Column23": "TOPMed",
+  "Column24": "VICC",
+  "Column25": "Elixir Cloud & AAI"
+ },
+ {
+  "Column1": "LAST UPDATED:",
+  "Column2": "4-21",
+  "Column3": "4-21",
+  "Column4": "4-21",
+  "DRIVER PROJECT": "4-21",
+  "Column6": "4-21",
+  "Column7": "4-21",
+  "Column8": "4-21",
+  "Column9": "4-21",
+  "Column10": "4-21",
+  "Column11": "4-21",
+  "Column12": "4-21",
+  "Column13": "4-21",
+  "Column14": "4-21",
+  "Column15": "4-21",
+  "Column16": "4-21",
+  "Column17": "4-21",
+  "Column18": "4-21",
+  "Column19": "4-21",
+  "Column20": "4-21",
+  "Column21": "4-21",
+  "Column22": "4-21",
+  "Column23": "4-21",
+  "Column24": "4-21",
+  "Column25": "4-21"
+ },
+ {
+  "Column1": "Workflow Execution Service (WES) API",
+  "Column2": "?",
+  "Column3": "A",
+  "DRIVER PROJECT": "A",
+  "Column6": "B",
+  "Column8": "A",
+  "Column11": "A",
+  "Column12": "B",
+  "Column13": "A",
+  "Column16": "A",
+  "Column17": "B",
+  "Column20": "B",
+  "Column21": "B",
+  "Column23": "?",
+  "Column25": "B"
+ },
+ {
+  "Column1": "Variant Representation: Data Model\/Specification",
+  "Column3": "?",
+  "DRIVER PROJECT": "B",
+  "Column6": "A",
+  "Column7": "B",
+  "Column8": "?",
+  "Column9": "A",
+  "Column10": "B",
+  "Column12": "A",
+  "Column13": "C",
+  "Column17": "A",
+  "Column19": "B",
+  "Column21": "C",
+  "Column24": "B",
+  "Column25": "A"
+ },
+ {
+  "Column1": "Variant Annotation: Data Model",
+  "Column2": "B",
+  "Column3": "?",
+  "DRIVER PROJECT": "B",
+  "Column6": "?",
+  "Column7": "B",
+  "Column8": "?",
+  "Column9": "A",
+  "Column10": "?",
+  "Column12": "A",
+  "Column13": "B",
+  "Column17": "A",
+  "Column19": "B",
+  "Column21": "C",
+  "Column24": "B",
+  "Column25": "A"
+ },
+ {
+  "Column1": "Tool Registry Service (TRS) v2",
+  "Column3": "A",
+  "Column12": "B",
+  "Column13": "A",
+  "Column17": "B",
+  "Column20": "B",
+  "Column21": "B",
+  "Column22": "B",
+  "Column23": "A",
+  "Column25": "B"
+ },
+ {
+  "Column1": "Task Execution Service (TES)",
+  "Column2": "?",
+  "Column8": "A",
+  "Column12": "B",
+  "Column13": "A",
+  "Column17": "B",
+  "Column20": "B",
+  "Column21": "B",
+  "Column25": "B"
+ },
+ {
+  "Column1": "Standard Genomic Data Licenses and Agreements"
+ },
+ {
+  "Column1": "Service Info\/Registry",
+  "Column2": "?",
+  "Column4": "A",
+  "DRIVER PROJECT": "?",
+  "Column9": "B",
+  "Column10": "B",
+  "Column12": "B",
+  "Column17": "A",
+  "Column18": "?",
+  "Column21": "C"
+ },
+ {
+  "Column1": "Search API",
+  "Column4": "B",
+  "DRIVER PROJECT": "?",
+  "Column6": "?",
+  "Column9": "B",
+  "Column11": "B",
+  "Column12": "B",
+  "Column13": "A",
+  "Column17": "A",
+  "Column18": "B",
+  "Column19": "C",
+  "Column21": "C",
+  "Column22": "B",
+  "Column23": "?"
+ },
+ {
+  "Column1": "rnaget API",
+  "Column6": "A",
+  "Column11": "B",
+  "Column12": "?"
+ },
+ {
+  "Column1": "refget API",
+  "Column2": "C",
+  "Column10": "B",
+  "Column12": "?",
+  "Column13": "?",
+  "Column16": "?"
+ },
+ {
+  "Column1": "Read File Formats (SAM\/BAM\/CRAM)",
+  "Column2": "B",
+  "Column3": "A",
+  "Column6": "A",
+  "Column9": "A",
+  "Column10": "B",
+  "Column11": "A",
+  "Column12": "?",
+  "Column13": "A",
+  "Column14": "A",
+  "Column15": "A",
+  "Column16": "A",
+  "Column17": "A",
+  "Column18": "?",
+  "Column20": "A",
+  "Column23": "A"
+ },
+ {
+  "Column1": "Pedigree Representation",
+  "Column2": "C",
+  "Column3": "?",
+  "DRIVER PROJECT": "B",
+  "Column8": "A",
+  "Column10": "A",
+  "Column12": "B",
+  "Column19": "B",
+  "Column21": "C"
+ },
+ {
+  "Column1": "Participant Patient Public Engagement Policy"
+ },
+ {
+  "Column1": "Machine readable consent guidance",
+  "Column14": "C"
+ },
+ {
+  "Column1": "International Participant Values Survey"
+ },
+ {
+  "Column1": "htsget API",
+  "Column2": "B",
+  "Column3": "?",
+  "Column6": "A",
+  "Column9": "A",
+  "Column10": "B",
+  "Column12": "?",
+  "Column13": "A",
+  "Column15": "A",
+  "Column16": "A",
+  "Column21": "A",
+  "Column23": "?",
+  "Column25": "A"
+ },
+ {
+  "Column1": "Genomic Return of Results in Research Study Policy"
+ },
+ {
+  "Column1": "Genetic Variation File Formats (VCF\/BCF)",
+  "Column3": "A",
+  "DRIVER PROJECT": "A",
+  "Column9": "A",
+  "Column10": "B",
+  "Column12": "A",
+  "Column13": "A",
+  "Column14": "A",
+  "Column15": "A",
+  "Column16": "A",
+  "Column17": "A",
+  "Column20": "A",
+  "Column23": "A",
+  "Column24": "?",
+  "Column25": "A"
+ },
+ {
+  "Column1": "GDPR Forum",
+  "Column12": "B"
+ },
+ {
+  "Column1": "GA4GH Passports",
+  "Column2": "C",
+  "Column3": "A",
+  "Column6": "B",
+  "Column8": "A",
+  "Column9": "B",
+  "Column10": "B",
+  "Column12": "A",
+  "Column13": "A",
+  "Column16": "?",
+  "Column17": "A",
+  "Column18": "?",
+  "Column19": "A",
+  "Column20": "B",
+  "Column21": "B",
+  "Column23": "B",
+  "Column24": "A",
+  "Column25": "B"
+ },
+ {
+  "Column1": "GA4GH Framework Translations"
+ },
+ {
+  "Column1": "Federated Analysis Systems Project",
+  "Column8": "?"
+ },
+ {
+  "Column1": "Familial Consent Clauses"
+ },
+ {
+  "Column1": "Ethics Review Recognition Policy",
+  "Column12": "?"
+ },
+ {
+  "Column1": "Data Use Ontology",
+  "Column2": "B",
+  "Column3": "A",
+  "Column6": "A",
+  "Column8": "B",
+  "Column9": "B",
+  "Column10": "B",
+  "Column11": "B",
+  "Column12": "A",
+  "Column13": "A",
+  "Column14": "B",
+  "Column15": "A",
+  "Column16": "?",
+  "Column17": "A",
+  "Column19": "B",
+  "Column20": "B",
+  "Column21": "B",
+  "Column23": "B",
+  "Column24": "B",
+  "Column25": "B"
+ },
+ {
+  "Column1": "Data Repository Service (DRS) API",
+  "Column2": "C",
+  "Column3": "A",
+  "Column6": "B",
+  "Column9": "A",
+  "Column10": "A",
+  "Column11": "A",
+  "Column12": "B",
+  "Column13": "A",
+  "Column16": "B",
+  "Column17": "B",
+  "Column20": "B",
+  "Column21": "B",
+  "Column22": "B",
+  "Column23": "B",
+  "Column25": "B"
+ },
+ {
+  "Column1": "Data Privacy & Security Policy",
+  "DRIVER PROJECT": "A",
+  "Column12": "B"
+ },
+ {
+  "Column1": "Data Access Committee Review Standards (DACReS)",
+  "Column12": "B",
+  "Column14": "A"
+ },
+ {
+  "Column1": "Crypt4GH",
+  "Column2": "B",
+  "Column10": "B",
+  "Column12": "?",
+  "Column13": "?"
+ },
+ {
+  "Column1": "Consent Clauses for Large Scale Initiatives"
+ },
+ {
+  "Column1": "Consent Clauses for Genomic Research"
+ },
+ {
+  "Column1": "Cloud Testbed Interoperability Demonstration",
+  "Column12": "B",
+  "Column13": "A",
+  "Column17": "B",
+  "Column20": "B",
+  "Column21": "B",
+  "Column23": "A"
+ },
+ {
+  "Column1": "Clinical Data Exchange (FHIR\/Phenopackets)",
+  "Column2": "B",
+  "DRIVER PROJECT": "?",
+  "Column6": "B",
+  "Column8": "B",
+  "Column9": "B",
+  "Column10": "A",
+  "Column11": "B",
+  "Column12": "C",
+  "Column14": "A",
+  "Column17": "A",
+  "Column18": "C",
+  "Column19": "B",
+  "Column20": "B",
+  "Column21": "B",
+  "Column22": "A",
+  "Column23": "?",
+  "Column24": "A"
+ },
+ {
+  "Column1": "Clinical Consent Clauses (WGS)"
+ },
+ {
+  "Column1": "Breach Response Protocol",
+  "Column2": "B",
+  "DRIVER PROJECT": "A",
+  "Column6": "A",
+  "Column9": "B",
+  "Column10": "B",
+  "Column11": "A",
+  "Column13": "?",
+  "Column16": "B",
+  "Column17": "A",
+  "Column18": "?",
+  "Column22": "B"
+ },
+ {
+  "Column1": "Beacon API",
+  "Column2": "A",
+  "DRIVER PROJECT": "A",
+  "Column8": "B",
+  "Column9": "B",
+  "Column10": "B",
+  "Column12": "B",
+  "Column13": "?",
+  "Column14": "A",
+  "Column15": "A",
+  "Column17": "A",
+  "Column18": "B",
+  "Column19": "C",
+  "Column22": "B",
+  "Column24": "?"
+ },
+ {
+  "Column1": "Authentication and Authorization Infrastructure (AAI)",
+  "Column2": "?",
+  "DRIVER PROJECT": "?",
+  "Column6": "C",
+  "Column9": "B",
+  "Column10": "B",
+  "Column12": "A",
+  "Column13": "?",
+  "Column16": "B",
+  "Column17": "A",
+  "Column20": "B",
+  "Column22": "B",
+  "Column23": "B",
+  "Column25": "B"
+ }
+],
+"Legend":[
+ {
+  "DP": "Ca",
+  "Driver Project": "Cancer"
+ },
+ {
+  "DP": "RD",
+  "Driver Project": "Rare Disease"
+ },
+ {
+  "DP": "Bio",
+  "Driver Project": "Basic Biology"
+ },
+ {
+  "DP": "Cx",
+  "Driver Project": "Complex Disease"
+ },
+ {
+  "DP": "Plfrm",
+  "Driver Project": "Platform"
+ },
+ {
+  "DP": "Or",
+  "Driver Project": "Other"
+ },
+ {
+  "DP": "BB",
+  "Driver Project": "Biobank"
+ },
+ {
+  "DP": "HC",
+  "Driver Project": "Healthcare"
+ },
+ {
+  "DP": "Re",
+  "Driver Project": "Research"
+ },
+ {
+  "DP": "Ind",
+  "Driver Project": "Industry"
+ },
+ {
+  "DP": "SDO",
+  "Driver Project": "Standards Development Organization"
+ },
+ {
+  "DP": "GHIF",
+  "Driver Project": "Genomics in Health Implementation Forum"
+ },
+ {
+  "DP": "CC",
+  "Driver Project": "Cancer Community"
+ },
+ {
+  "DP": "Ph",
+  "Driver Project": "Pharma"
+ },
+ {
+  "DP": "CAG",
+  "Driver Project": "Clinical Advisory Group"
+ },
+ {
+  "DP": "Covid",
+  "Driver Project": "Coronavirus disease"
+ },
+ {
+  "DP": "Genomics Only",
+  "Driver Project": "organizations whose primary or sole purpose relates to genomics"
+ }
+]
+}

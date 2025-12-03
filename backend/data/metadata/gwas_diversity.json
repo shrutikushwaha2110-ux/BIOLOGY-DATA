@@ -1,0 +1,68 @@
+[
+ {
+  "dataset": "table_name",
+  "Column2": "title",
+  "Column3": "source_name",
+  "Column4": "source_url",
+  "citation": "authors",
+  "Column14": "title",
+  "Column15": "journal",
+  "Column16": "year",
+  "Column17": "doi",
+  "Column18": "url",
+  "columns": "column_name",
+  "Column20": "data_type",
+  "Column21": "description",
+  "Column22": "unit",
+  "Column23": "is_processed"
+ },
+ {
+  "dataset": "gwas_diversity",
+  "Column2": "Genome Diversity by Ancestry Over Time",
+  "Column3": "GWAS Catalog",
+  "Column4": "https:\/\/www.ebi.ac.uk\/gwas\/api\/search\/downloads\/ancestry",
+  "description": "This dataset tracks the diversity of populations represented in genome-wide association studies (GWAS) over time. It shows the historical trend in the representation of different ancestry groups in genetic research, highlighting both progress and gaps in population diversity. The data is collected from published GWAS studies in the GWAS Catalog, providing insights into the evolution of genetic research inclusivity.",
+  "last_updated": "2024-04-26",
+  "raw_data_file": "gwas_catalog-ancestry_r2025-04-14.tsv",
+  "processed_data_file": "processed_gwas_diversity.csv",
+  "version": "1.0",
+  "access_date": "2024-01-01",
+  "license": "CC BY 4.0",
+  "update_frequency": "Annual",
+  "citation": "Buniello, A., MacArthur, J.A.L., Cerezo, M. et al.",
+  "Column14": "The NHGRI-EBI GWAS Catalog of published genome-wide association studies, targeted arrays and summary statistics 2019",
+  "Column15": "Nucleic Acids Research",
+  "Column16": "2019",
+  "Column17": "10.1093\/nar\/gky1120",
+  "Column18": "https:\/\/www.ebi.ac.uk\/gwas\/",
+  "columns": "study_id",
+  "Column20": "STRING",
+  "Column21": "Unique identifier for the GWAS study",
+  "Column23": true
+ },
+ {
+  "columns": "population",
+  "Column20": "STRING",
+  "Column21": "Population group identifier",
+  "Column23": true
+ },
+ {
+  "columns": "ancestry",
+  "Column20": "STRING",
+  "Column21": "Reported ancestry of the study participants",
+  "Column23": true
+ },
+ {
+  "columns": "region",
+  "Column20": "STRING",
+  "Column21": "Geographic region of the population",
+  "Column23": true
+ },
+ {
+  "columns": "sample_size",
+  "Column20": "INTEGER",
+  "Column21": "Number of participants in the study",
+  "Column22": "individuals",
+  "Column23": true
+ }
+]

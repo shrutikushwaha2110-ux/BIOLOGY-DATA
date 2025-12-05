@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { API_BASE } from "../utils/api";
 import ResearchCard from "../components/ResearchCard";
+import StatsCharts from "../components/StatsCharts";
 import "../styles/Home.css";
 
 function Home({ onUploadClick }) {
@@ -93,6 +94,9 @@ function Home({ onUploadClick }) {
           )}
         </div>
       </section>
+
+      {/* Stats & Charts Section */}
+      <StatsCharts />
 
       {/* CTA Section */}
       <section className="cta-section">

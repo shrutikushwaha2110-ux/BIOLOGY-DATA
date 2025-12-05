@@ -26,8 +26,8 @@ function Login({ onLogin }) {
       }
 
       const data = await response.json();
-      // Store token and role
-      onLogin(data.token, data.role || "admin");
+      // Pass full data object {token, role, username} to onLogin
+      onLogin(data.token, data);
     } catch (err) {
       setError(err.message || "An error occurred");
     } finally {

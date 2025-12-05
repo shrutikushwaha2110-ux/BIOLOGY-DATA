@@ -1,0 +1,86 @@
+/* Modal overlay and base styles */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 720px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  position: relative;
+  padding: 20px;
+}
+
+.modal-large {
+  max-width: 980px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: #666;
+}
+
+.modal-content {
+  padding: 10px 6px 20px 6px;
+}
+
+.modal-subtitle {
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.error-message { color: #b00020; margin-top: 8px; }
+.success-message { color: #0a7a0a; margin-top: 8px; }
+
+.btn-primary-modal {
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-secondary-modal {
+  background: #f3f4f6;
+  color: #333;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}

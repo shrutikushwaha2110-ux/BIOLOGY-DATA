@@ -1,0 +1,11 @@
+/* Browse page styles */
+.browse-header { padding: 28px 0 6px 0; }
+.search-form { display:flex; gap:8px; margin-bottom: 12px; }
+.search-form input { flex:1; padding: 10px 12px; border-radius: 6px; border:1px solid #e6e6e6; }
+.btn-search { background: #667eea; color:white; border:none; padding:10px 16px; border-radius:6px; cursor:pointer; }
+.btn-clear { background: #f3f4f6; border:none; padding:10px 12px; border-radius:6px; cursor:pointer; }
+
+.results-info { margin-bottom: 12px; color: #555; }
+.research-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
+
+.no-data { padding: 30px; background: #fff; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.03); }

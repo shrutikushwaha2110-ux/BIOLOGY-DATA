@@ -1,88 +1,117 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import AdminUploads from "./pages/AdminUploads";
+import Home from "./pages/Home";
+import Browse from "./pages/Browse";
+import LoginModal from "./components/LoginModal";
+import UploadModal from "./components/UploadModal";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [isAdmin, setIsAdmin] = useState(false);
-  const [currentPage, setCurrentPage] = useState("dashboard");
-  const [loading, setLoading] = useState(true);
+  const [username, setUsername] = useState("");
+  const [currentPage, setCurrentPage] = useState("home");
+  const [showLoginModal, setShowLoginModal] = useState(false);
+  const [showUploadModal, setShowUploadModal] = useState(false);
 
   useEffect(() => {
-    // Check if user is already logged in
     const token = localStorage.getItem("token");
+    const user = localStorage.getItem("username");
     const role = localStorage.getItem("role");
-    if (token) {
+    if (token && user) {
       setIsLoggedIn(true);
-      setIsAdmin(role === "admin");
+      setUsername(user);
     }
-    setLoading(false);
   }, []);
 
-  const handleLogin = (token, role) => {
+  const handleLogin = (token, user) => {
+    const username = user.username || user;
+    const role = user.role || "user";
     localStorage.setItem("token", token);
+    localStorage.setItem("username", username);
     localStorage.setItem("role", role);
     setIsLoggedIn(true);
-    setIsAdmin(role === "admin");
-    setCurrentPage("dashboard");
+    setUsername(username);
+    setShowLoginModal(false);
   };
 
   const handleLogout = () => {
     localStorage.removeItem("token");
-    localStorage.removeItem("role");
+    localStorage.removeItem("username");
     setIsLoggedIn(false);
-    setIsAdmin(false);
-    setCurrentPage("dashboard");
+    setUsername("");
+    setShowUploadModal(false);
   };
 
-  if (loading) return <div className="loading">Loading...</div>;
-
-  if (!isLoggedIn) {
-    return <Login onLogin={handleLogin} />;
-  }
+  const handleUploadClick = () => {
+    if (!isLoggedIn) {
+      setShowLoginModal(true);
+    } else {
+      setShowUploadModal(true);
+    }
+  };
 
   return (
     <div className="app">
       <header className="header">
-        <div className="header-content">
-          <div className="logo">
-            <h1>🧬 BioInData</h1>
-          </div>
-          <nav className="nav">
-            <button
-              className={`nav-btn ${currentPage === "dashboard" ? "active" : ""}`}
-              onClick={() => setCurrentPage("dashboard")}
-            >
-              Research
-            </button>
-            {isAdmin && (
-              <button
-                className={`nav-btn ${currentPage === "uploads" ? "active" : ""}`}
-                onClick={() => setCurrentPage("uploads")}
+        <div className="container">
+          <div className="header-content">
+            <div className="logo">
+              <h1 onClick={() => setCurrentPage("home")} style={{ cursor: "pointer" }}>🧬 BioResearch</h1>
+            </div>
+            <nav className="nav">
+              <button 
+                className={`nav-link ${currentPage === "home" ? "active" : ""}`}
+                onClick={() => setCurrentPage("home")}
               >
-                Admin - Uploads
+                Home
               </button>
-            )}
-          </nav>
-          <div className="user-section">
-            <span className="user-role">{isAdmin ? "Admin" : "User"}</span>
-            <button className="logout-btn" onClick={handleLogout}>
-              Logout
-            </button>
+              <button 
+                className={`nav-link ${currentPage === "browse" ? "active" : ""}`}
+                onClick={() => setCurrentPage("browse")}
+              >
+                Browse Data
+              </button>
+              <button className="nav-link upload-btn" onClick={handleUploadClick}>
+                Upload Data
+              </button>
+            </nav>
+            <div className="auth-section">
+              {isLoggedIn ? (
+                <>
+                  <span className="user-name">{username}</span>
+                  <button className="btn-logout" onClick={handleLogout}>Logout</button>
+                </>
+              ) : (
+                <button className="btn-login" onClick={() => setShowLoginModal(true)}>Login</button>
+              )}
+            </div>
           </div>
         </div>
       </header>
 
       <main className="main-content">
-        {currentPage === "dashboard" && <Dashboard />}
-        {currentPage === "uploads" && isAdmin && <AdminUploads />}
+        {currentPage === "home" && <Home onUploadClick={handleUploadClick} />}
+        {currentPage === "browse" && <Browse />}
       </main>
 
       <footer className="footer">
-        <p>&copy; 2025 BioInData Research Platform. All rights reserved.</p>
+        <div className="container">
+          <p>&copy; 2025 BioResearch Platform. All rights reserved.</p>
+        </div>
       </footer>
+
+      {showLoginModal && (
+        <LoginModal 
+          onClose={() => setShowLoginModal(false)}
+          onLogin={handleLogin}
+          onUploadNext={() => {
+            setShowLoginModal(false);
+            setShowUploadModal(true);
+          }}
+        />
+      )}
+      {showUploadModal && isLoggedIn && (
+        <UploadModal onClose={() => setShowUploadModal(false)} />
+      )}
     </div>
   );
 }

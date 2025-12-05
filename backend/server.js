@@ -127,6 +127,15 @@ if (app._router && app._router.stack) {
   console.log(summary);
 }
 
+// Global error handler
+app.use((err, req, res, next) => {
+  console.error('Express error:', err);
+  res.status(err.status || 500).json({
+    message: err.message || 'Internal Server Error',
+    error: process.env.NODE_ENV === 'development' ? err : {}
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`🚀 BioInData Backend Running on port ${PORT}`);
 });

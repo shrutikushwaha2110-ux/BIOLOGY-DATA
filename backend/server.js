@@ -34,6 +34,35 @@ try {
   console.warn('Could not mount inline /api/categories handler:', e.message);
 }
 
+// Inline mappings for research endpoints (use controllers directly)
+try {
+  const researchCtrl = require('./controllers/researchController');
+  app.get('/api/research/:id', researchCtrl.getResearch);
+  app.get('/api/research/:id/abstract', researchCtrl.getAbstract);
+  app.get('/api/research/:id/content', researchCtrl.getContent);
+  app.get('/api/research/:id/figures', researchCtrl.getFigures);
+  app.get('/api/research/:id/datasets', researchCtrl.getDatasets);
+} catch (e) {
+  console.warn('Could not mount inline research handlers:', e.message);
+}
+
+// Inline mapping for search and filters
+try {
+  const { search } = require('./controllers/searchController');
+  app.get('/api/search', search);
+} catch (e) {
+  console.warn('Could not mount inline /api/search handler:', e.message);
+}
+try {
+  const filters = require('./controllers/filtersController');
+  app.get('/api/filters/years', filters.years);
+  app.get('/api/filters/authors', filters.authors);
+  app.get('/api/filters/keywords', filters.keywords);
+  app.get('/api/filters/domains', filters.domains);
+} catch (e) {
+  console.warn('Could not mount inline /api/filters handlers:', e.message);
+}
+
 // ---------- DEFAULT ROUTE ----------
 app.get("/", (req, res) => {
   res.send("BioInData Backend OK 🚀");

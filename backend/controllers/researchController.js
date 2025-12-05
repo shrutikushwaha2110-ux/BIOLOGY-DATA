@@ -1,83 +1,85 @@
-const fs = require("fs");
-const path = require("path");
+const path = require('path');
+const fs = require('fs-extra');
+const { listJSONFiles, readJSON } = require('../utils/fileDb');
 
-const metadataDir = path.join(__dirname, "../data/metadata");
-const rawDir = path.join(__dirname, "../data/raw");
-const refDir = path.join(__dirname, "../data/references");
-
-function walk(folder, callback) {
-  fs.readdirSync(folder).forEach((file) => {
-    const full = path.join(folder, file);
-    const stat = fs.statSync(full);
-
-    if (stat.isDirectory()) {
-      walk(full, callback);
-    } else {
-      callback(full);
+// helper: read metadata file by id (file base name)
+async function getMetadataById(id) {
+  const metaDir = path.join(__dirname, '..', 'data', 'metadata');
+  const files = await listJSONFiles(metaDir);
+  for (const f of files) {
+    const base = path.basename(f, '.json');
+    if (base.toLowerCase() === id.toLowerCase()) {
+      return await readJSON(f);
     }
-  });
+  }
+  return null;
 }
 
-// extract id (filename without extension)
-function getId(filePath) {
-  const base = path.basename(filePath);
-  return base.replace(path.extname(base), "");
+async function getResearch(req, res) {
+  const { id } = req.params;
+  try {
+    const meta = await getMetadataById(id);
+    if (!meta) return res.status(404).json({ message: 'Not found' });
+    res.json(meta);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
 }
 
+async function getAbstract(req, res) {
+  const { id } = req.params;
+  try {
+    const meta = await getMetadataById(id);
+    if (!meta) return res.status(404).json({ message: 'Not found' });
+    const abstract = meta.abstract || '';
+    res.json({ id, abstract });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+}
 
-// ⭐ API: GET /research
-exports.getAllResearch = (req, res) => {
-  const results = [];
+async function getContent(req, res) {
+  // here we expect metadata.containers or content sections
+  const { id } = req.params;
+  try {
+    const meta = await getMetadataById(id);
+    if (!meta) return res.status(404).json({ message: 'Not found' });
+    const content = meta.content || meta.sections || [];
+    res.json({ id, content });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+}
 
-  walk(metadataDir, (filePath) => {
-    if (!filePath.endsWith(".json")) return;
+async function getFigures(req, res) {
+  const { id } = req.params;
+  try {
+    const meta = await getMetadataById(id);
+    if (!meta) return res.status(404).json({ message: 'Not found' });
+    const figures = meta.figures || meta.images || [];
+    res.json({ id, figures });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+}
 
-    const data = JSON.parse(fs.readFileSync(filePath));
-    const id = getId(filePath);
-
-    results.push({
-      id,
-      title: data.title || "Untitled",
-      category: data.category || "Unknown",
-      year: data.year || "Unknown",
-      abstract: data.abstract ? data.abstract.slice(0, 150) + "..." : "",
+async function getDatasets(req, res) {
+  const { id } = req.params;
+  try {
+    const meta = await getMetadataById(id);
+    if (!meta) return res.status(404).json({ message: 'Not found' });
+    // if metadata references raw filenames, transform
+    const datasets = meta.datasets || meta.dataset_files || [];
+    // return URL endpoints local path
+    const baseUrl = `/api/files/raw/`;
+    const datasetUrls = datasets.map(d => {
+      const name = typeof d === 'string' ? d : (d.filename || d.file);
+      return { name, url: baseUrl + encodeURIComponent(name) };
     });
-  });
+    res.json({ id, datasets: datasetUrls });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+}
 
-  res.json(results);
-};
-
-
-// ⭐ API: GET /research/:id
-exports.getResearchById = (req, res) => {
-  const id = req.params.id;
-
-  let metaFile = null;
-  let rawFile = null;
-  let references = [];
-
-  // find metadata file
-  walk(metadataDir, (filePath) => {
-    if (filePath.includes(id) && filePath.endsWith(".json")) {
-      metaFile = filePath;
-    }
-  });
-
-  // find raw file
-  walk(rawDir, (filePath) => {
-    if (filePath.includes(id)) rawFile = filePath;
-  });
-
-  // find reference folder
-  walk(refDir, (filePath) => {
-    if (filePath.includes(id)) {
-      references.push(filePath);
-    }
-  });
-
-  res.json({
-    metadata: metaFile ? JSON.parse(fs.readFileSync(metaFile)) : null,
-    raw: rawFile ? fs.readFileSync(rawFile, "utf8") : null,
-    references,
-  });
-};
+module.exports = { getResearch, getAbstract, getContent, getFigures, getDatasets };

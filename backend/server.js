@@ -15,13 +15,6 @@ const filesRoutes = require("./routes/filesRoutes");
 const app = express();
 
 app.use(cors());
-app.use(express.json());
-
-// ---------- REGISTER ROUTES ----------
-app.use("/api/auth", authRoutes);
-app.use("/api/admin", adminRoutes);
-app.use("/api/categories", categoryRoutes);
-app.use("/api/research", researchRoutes);
 app.use("/api/filters", filtersRoutes);
 app.use("/api/search", searchRoutes);
 app.use("/api/uploads", filesRoutes);
@@ -61,6 +54,32 @@ try {
   app.get('/api/filters/domains', filters.domains);
 } catch (e) {
   console.warn('Could not mount inline /api/filters handlers:', e.message);
+}
+
+const routesToMount = [
+  { mount: '/api/auth', path: './routes/authRoutes' },
+  { mount: '/api/admin', path: './routes/adminRoutes' },
+  { mount: '/api/categories', path: './routes/categoryRoutes' },
+  { mount: '/api/research', path: './routes/researchRoutes' },
+  { mount: '/api/filters', path: './routes/filtersRoutes' },
+  { mount: '/api/search', path: './routes/searchRoutes' },
+  { mount: '/api/uploads', path: './routes/filesRoutes' },
+];
+
+for (const r of routesToMount) {
+  try {
+    const router = require(r.path);
+    // Basic validation: router should be a function and have stack (express router)
+    const isRouter = typeof router === 'function' || (router && Array.isArray(router.stack));
+    if (!isRouter) {
+      console.warn(`Route module at ${r.path} did not export an Express router`);
+    } else {
+      app.use(r.mount, router);
+      console.log(`Mounted router ${r.path} at ${r.mount}`);
+    }
+  } catch (err) {
+    console.error(`Failed to require route ${r.path}:`, err && err.message ? err.message : err);
+  }
 }
 
 // ---------- DEFAULT ROUTE ----------

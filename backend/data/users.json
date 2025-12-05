@@ -1,0 +1,9 @@
+[
+  {
+    "id": "admin-1",
+    "email": "admin@example.com",
+    "passwordHash": "$2a$10$0mXqkqkzF4lJdJ2d3G0g0OqB7v6zF/7Wq3HfKQG5YlP7TggVx5m2W",
+    "role": "admin",
+    "name": "Platform Admin"
+  }
+]

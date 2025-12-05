@@ -1,26 +1,22 @@
-const fs = require("fs");
-const path = require("path");
+const path = require('path');
+const { listJSONFiles, readJSON } = require('../utils/fileDb');
 
-exports.getCategories = (req, res) => {
-  const metadataDir = path.join(__dirname, "../data/metadata");
-  const categories = new Set();
-
-  function walk(folder) {
-    fs.readdirSync(folder).forEach((file) => {
-      const full = path.join(folder, file);
-      const stat = fs.statSync(full);
-
-      if (stat.isDirectory()) return walk(full);
-
-      if (file.endsWith(".json")) {
-        const json = JSON.parse(fs.readFileSync(full));
-
-        if (json.category) categories.add(json.category);
-      }
-    });
+async function getCategories(req, res) {
+  try {
+    const dir = path.join(__dirname, '..', 'data', 'metadata');
+    const files = await listJSONFiles(dir);
+    const categories = {};
+    for (const f of files) {
+      const meta = await readJSON(f);
+      const cat = meta.category || meta.category_name || meta.category_id || 'Uncategorized';
+      if (!categories[cat]) categories[cat] = { name: cat, count: 0, example: meta.title || '' };
+      categories[cat].count++;
+    }
+    const arr = Object.values(categories);
+    res.json(arr);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
   }
+}
 
-  walk(metadataDir);
-
-  res.json([...categories]);
-};
+module.exports = { getCategories };

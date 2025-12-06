@@ -11,6 +11,7 @@ const researchRoutes = require("./routes/researchRoutes");
 const filtersRoutes = require("./routes/filtersRoutes");
 const searchRoutes = require("./routes/searchRoutes");
 const filesRoutes = require("./routes/filesRoutes");
+const dataRoutes = require("./routes/dataRoutes");
 
 const app = express();
 
@@ -64,6 +65,7 @@ const routesToMount = [
   { mount: '/api/filters', path: './routes/filtersRoutes' },
   { mount: '/api/search', path: './routes/searchRoutes' },
   { mount: '/api/uploads', path: './routes/filesRoutes' },
+  { mount: '/api/data', path: './routes/dataRoutes' },
 ];
 
 for (const r of routesToMount) {

@@ -1,8 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Download, FileText, Share2, BookOpen, Loader } from 'lucide-react';
 import { ChartCard } from '../components/ChartCard';
 import { LineChart, Line, BarChart, Bar, AreaChart, Area, ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
+import html2canvas from 'html2canvas';
 import { fetchResearchById, fetchRawData } from '../api';
 
 export function ResearchDetail({ onNavigate, researchId = 'genome_cost' }) {
@@ -60,20 +61,37 @@ export function ResearchDetail({ onNavigate, researchId = 'genome_cost' }) {
     }
   };
 
-  const handleDownloadFigure = () => {
-    console.log('Downloading figure...');
+  const chartRef = useRef(null);
+
+  const handleDownloadFigure = async () => {
+    if (chartRef.current) {
+      try {
+        const canvas = await html2canvas(chartRef.current, {
+          backgroundColor: '#ffffff'
+        });
+        const url = canvas.toDataURL('image/png');
+        const link = document.createElement('a');
+        link.download = `${researchId}-chart.png`;
+        link.href = url;
+        link.click();
+      } catch (err) {
+        console.error('Download failed:', err);
+      }
+    }
   };
 
-  // Format number for display
-  const formatNumber = (num) => {
-    if (num >= 1000000) return `$${(num / 1000000).toFixed(1)}M`;
-    if (num >= 1000) return `$${(num / 1000).toFixed(1)}K`;
-    return `$${num.toFixed(2)}`;
-  };
+  // ... (rest of code)
 
   // Get chart type based on research ID
   const getChartComponent = () => {
     if (!chartData || chartData.length === 0) return null;
+
+    // Common props for ChartCard to attach the ref wrapper
+    const CardWrapper = ({ children }) => (
+      <div ref={chartRef} className="bg-white">
+        {children}
+      </div>
+    );
 
     if (researchId === 'genome_cost') {
       // Genome cost: line chart showing cost over time
@@ -84,27 +102,29 @@ export function ResearchDetail({ onNavigate, researchId = 'genome_cost' }) {
       }));
 
       return (
-        <ChartCard
-          title="Genome Sequencing Cost Over Time"
-          citation="Data source: NHGRI - Cost of sequencing a human genome from 2001 to 2022"
-          onDownloadData={handleDownloadData}
-          onDownloadFigure={handleDownloadFigure}
-        >
-          <ResponsiveContainer width="100%" height={400}>
-            <LineChart data={formattedData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
-              <XAxis dataKey="date" stroke="#6b7280" tick={{ fontSize: 10 }} interval={5} />
-              <YAxis
-                stroke="#6b7280"
-                tickFormatter={formatNumber}
-                label={{ value: 'Cost (USD)', angle: -90, position: 'insideLeft' }}
-              />
-              <Tooltip formatter={(value) => formatNumber(value)} />
-              <Legend />
-              <Line type="monotone" dataKey="costPerGenome" stroke="#4CAF50" strokeWidth={2} name="Cost per Genome" dot={false} />
-            </LineChart>
-          </ResponsiveContainer>
-        </ChartCard>
+        <CardWrapper>
+          <ChartCard
+            title="Genome Sequencing Cost Over Time"
+            citation="Data source: NHGRI - Cost of sequencing a human genome from 2001 to 2022"
+            onDownloadData={handleDownloadData}
+            onDownloadFigure={handleDownloadFigure}
+          >
+            <ResponsiveContainer width="100%" height={400}>
+              <LineChart data={formattedData}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                <XAxis dataKey="date" stroke="#6b7280" tick={{ fontSize: 10 }} interval={5} />
+                <YAxis
+                  stroke="#6b7280"
+                  tickFormatter={formatNumber}
+                  label={{ value: 'Cost (USD)', angle: -90, position: 'insideLeft' }}
+                />
+                <Tooltip formatter={(value) => formatNumber(value)} />
+                <Legend />
+                <Line type="monotone" dataKey="costPerGenome" stroke="#4CAF50" strokeWidth={2} name="Cost per Genome" dot={false} />
+              </LineChart>
+            </ResponsiveContainer>
+          </ChartCard>
+        </CardWrapper>
       );
     }
 
@@ -121,22 +141,24 @@ export function ResearchDetail({ onNavigate, researchId = 'genome_cost' }) {
         .slice(0, 15);
 
       return (
-        <ChartCard
-          title="National Genome Projects by Country"
-          citation="Data source: Survey of national genome initiatives worldwide"
-          onDownloadData={handleDownloadData}
-          onDownloadFigure={handleDownloadFigure}
-        >
-          <ResponsiveContainer width="100%" height={400}>
-            <BarChart data={barData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
-              <XAxis dataKey="country" stroke="#6b7280" tick={{ fontSize: 10 }} angle={-45} textAnchor="end" height={80} />
-              <YAxis stroke="#6b7280" label={{ value: 'Number of Projects', angle: -90, position: 'insideLeft' }} />
-              <Tooltip />
-              <Bar dataKey="count" fill="#4CAF50" name="Projects" />
-            </BarChart>
-          </ResponsiveContainer>
-        </ChartCard>
+        <CardWrapper>
+          <ChartCard
+            title="National Genome Projects by Country"
+            citation="Data source: Survey of national genome initiatives worldwide"
+            onDownloadData={handleDownloadData}
+            onDownloadFigure={handleDownloadFigure}
+          >
+            <ResponsiveContainer width="100%" height={400}>
+              <BarChart data={barData}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                <XAxis dataKey="country" stroke="#6b7280" tick={{ fontSize: 10 }} angle={-45} textAnchor="end" height={80} />
+                <YAxis stroke="#6b7280" label={{ value: 'Number of Projects', angle: -90, position: 'insideLeft' }} />
+                <Tooltip />
+                <Bar dataKey="count" fill="#4CAF50" name="Projects" />
+              </BarChart>
+            </ResponsiveContainer>
+          </ChartCard>
+        </CardWrapper>
       );
     }
 

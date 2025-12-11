@@ -1,88 +1,35 @@
-const path = require('path');
-const fs = require('fs-extra');
-const { listJSONFiles, readJSON } = require('../utils/fileDb');
+const Research = require('../models/Research');
 
-// Helper: parse metadata array format into a structured object
-function parseMetadata(data) {
-  if (!Array.isArray(data) || data.length < 3) return null;
-
-  // The third element (index 2) typically contains the main dataset info
-  const mainEntry = data[2] || {};
-
-  // Extract fields from the various Column entries
-  const result = {
-    dataset: mainEntry.dataset || '',
-    title: mainEntry.Column2 || mainEntry.Column4 || mainEntry.title || '',
-    source_name: mainEntry.Column3 || mainEntry.Column2 || '',
-    source_url: mainEntry.Column4 || mainEntry.Column3 || '',
-    description: mainEntry.description || mainEntry.Column5 || '',
-    last_updated: mainEntry.last_updated || mainEntry.Column6 || '',
-    raw_data_file: mainEntry.raw_data_file || mainEntry.Column7 || '',
-    processed_data_file: mainEntry.Column8 || '',
-    // Citation info
-    authors: mainEntry.citation || mainEntry.Column9 || '',
-    citation_title: mainEntry.Column10 || '',
-    journal: mainEntry.Column11 || mainEntry.Column15 || '',
-    year: mainEntry.Column12 || mainEntry.Column16 || '',
-    doi: mainEntry.Column13 || mainEntry.Column17 || '',
-    url: mainEntry.Column14 || mainEntry.Column18 || '',
-  };
-
-  // Collect column definitions from remaining array entries
-  const columns = [];
-  for (let i = 2; i < data.length; i++) {
-    if (data[i].columns) {
-      columns.push({
-        name: data[i].columns,
-        type: data[i].Column16 || data[i].Column20 || '',
-        description: data[i].Column17 || data[i].Column21 || '',
-        unit: data[i].Column18 || data[i].Column22 || '',
-        is_processed: data[i].Column19 || data[i].Column23 || false
-      });
-    }
-  }
-  result.columns = columns;
-
-  return result;
+// Helper: Generate slug from title
+function generateSlug(title) {
+  return title.toLowerCase()
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '')
+    .substring(0, 50);
 }
 
 // Get all research datasets
 async function getAllResearch(req, res) {
   try {
-    const metaDir = path.join(__dirname, '..', 'data', 'metadata');
-    const files = await listJSONFiles(metaDir);
+    const researchDocs = await Research.find({}).sort({ createdAt: -1 });
 
-    const results = [];
-    for (const f of files) {
-      const base = path.basename(f, '.json');
-      if (base === 'template') continue; // Skip template file
-
-      try {
-        const data = await readJSON(f);
-        const parsed = parseMetadata(data);
-
-        if (parsed) {
-          results.push({
-            id: base,
-            title: parsed.title || base.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
-            description: parsed.description || '',
-            source_name: parsed.source_name || '',
-            source_url: parsed.source_url || '',
-            authors: parsed.authors || '',
-            journal: parsed.journal || '',
-            year: parsed.year || '',
-            doi: parsed.doi || '',
-            last_updated: parsed.last_updated || '',
-            raw_data_file: parsed.raw_data_file || '',
-            category: getCategory(base),
-            tags: getTags(base, parsed),
-            thumbnail: getThumbnail(base)
-          });
-        }
-      } catch (err) {
-        console.warn(`Error parsing ${f}:`, err.message);
-      }
-    }
+    const results = researchDocs.map(doc => ({
+      id: doc.slug,
+      title: doc.title,
+      description: doc.description || doc.abstract,
+      source_name: doc.source_name || '',
+      source_url: doc.source_url || '',
+      authors: doc.authors ? doc.authors.join(', ') : '',
+      journal: doc.journal || '',
+      year: doc.year || '',
+      doi: doc.doi || '',
+      last_updated: doc.last_updated || doc.updatedAt,
+      raw_data_file: doc.dataset_file || '',
+      category: 'Biology', // You might want to populate this if using categories
+      tags: doc.tags || [],
+      // Placeholder or logic for thumbnail if needed
+      thumbnail: 'https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600'
+    }));
 
     res.json(results);
   } catch (err) {
@@ -91,63 +38,15 @@ async function getAllResearch(req, res) {
   }
 }
 
-// Helper function to determine category based on dataset name
-function getCategory(id) {
-  const categories = {
-    'genome': 'Genomics',
-    'gwas': 'Genetics',
-    'pbw': 'Agriculture',
-    'cotton': 'Agriculture',
-  };
-
-  for (const [key, value] of Object.entries(categories)) {
-    if (id.toLowerCase().includes(key)) return value;
-  }
-  return 'Biology';
-}
-
-// Helper function to generate tags
-function getTags(id, parsed) {
-  const tags = [];
-  if (id.includes('genome')) tags.push('Genome', 'Sequencing');
-  if (id.includes('cost')) tags.push('Cost Analysis', 'Historical Data');
-  if (id.includes('projects')) tags.push('Global Projects', 'National Initiatives');
-  if (id.includes('gwas')) tags.push('GWAS', 'Population Genetics', 'Ancestry');
-  if (id.includes('pbw') || id.includes('cotton')) tags.push('Agriculture', 'Bt Cotton', 'Pest Resistance');
-  if (parsed.year) tags.push(parsed.year);
-  return tags.slice(0, 5);
-}
-
-// Helper function to get thumbnail
-function getThumbnail(id) {
-  const thumbnails = {
-    'genome_cost': 'https://images.unsplash.com/photo-1579154392013-64f6ab5c2aa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600',
-    'genome_projects': 'https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600',
-    'gwas_diversity': 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600',
-    'pbw_damage_cotton_india': 'https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600',
-  };
-  return thumbnails[id] || 'https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600';
-}
-
-// helper: read metadata file by id (file base name)
-async function getMetadataById(id) {
-  const metaDir = path.join(__dirname, '..', 'data', 'metadata');
-  const files = await listJSONFiles(metaDir);
-  for (const f of files) {
-    const base = path.basename(f, '.json');
-    if (base.toLowerCase() === id.toLowerCase()) {
-      return await readJSON(f);
-    }
-  }
-  return null;
-}
-
 async function getResearch(req, res) {
-  const { id } = req.params;
+  const { id } = req.params; // id here is the slug
   try {
-    const meta = await getMetadataById(id);
-    if (!meta) return res.status(404).json({ message: 'Not found' });
-    res.json(meta);
+    const research = await Research.findOne({ slug: id });
+    if (!research) return res.status(404).json({ message: 'Not found' });
+
+    // Transform to match expected format if necessary, or return doc
+    // The original fileDb returned a specific structure, assuming frontend handles the doc structure now
+    res.json(research);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
@@ -156,23 +55,22 @@ async function getResearch(req, res) {
 async function getAbstract(req, res) {
   const { id } = req.params;
   try {
-    const meta = await getMetadataById(id);
-    if (!meta) return res.status(404).json({ message: 'Not found' });
-    const abstract = meta.abstract || '';
-    res.json({ id, abstract });
+    const research = await Research.findOne({ slug: id });
+    if (!research) return res.status(404).json({ message: 'Not found' });
+    res.json({ id, abstract: research.abstract });
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
 }
 
 async function getContent(req, res) {
-  // here we expect metadata.containers or content sections
   const { id } = req.params;
   try {
-    const meta = await getMetadataById(id);
-    if (!meta) return res.status(404).json({ message: 'Not found' });
-    const content = meta.content || meta.sections || [];
-    res.json({ id, content });
+    const research = await Research.findOne({ slug: id });
+    if (!research) return res.status(404).json({ message: 'Not found' });
+    // Assuming content logic needs to be defined or we use a field. 
+    // For now returning empty or placeholder as previous code used metadata parts.
+    res.json({ id, content: [] });
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
@@ -181,10 +79,9 @@ async function getContent(req, res) {
 async function getFigures(req, res) {
   const { id } = req.params;
   try {
-    const meta = await getMetadataById(id);
-    if (!meta) return res.status(404).json({ message: 'Not found' });
-    const figures = meta.figures || meta.images || [];
-    res.json({ id, figures });
+    const research = await Research.findOne({ slug: id });
+    if (!research) return res.status(404).json({ message: 'Not found' });
+    res.json({ id, figures: research.image_files || [] });
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
@@ -193,16 +90,20 @@ async function getFigures(req, res) {
 async function getDatasets(req, res) {
   const { id } = req.params;
   try {
-    const meta = await getMetadataById(id);
-    if (!meta) return res.status(404).json({ message: 'Not found' });
-    // if metadata references raw filenames, transform
-    const datasets = meta.datasets || meta.dataset_files || [];
-    // return URL endpoints local path
+    const research = await Research.findOne({ slug: id });
+    if (!research) return res.status(404).json({ message: 'Not found' });
+
+    let datasets = [];
+    if (research.dataset_file) {
+      datasets.push(research.dataset_file);
+    }
+
     const baseUrl = `/api/files/raw/`;
-    const datasetUrls = datasets.map(d => {
-      const name = typeof d === 'string' ? d : (d.filename || d.file);
-      return { name, url: baseUrl + encodeURIComponent(name) };
-    });
+    const datasetUrls = datasets.map(name => ({
+      name,
+      url: baseUrl + encodeURIComponent(name)
+    }));
+
     res.json({ id, datasets: datasetUrls });
   } catch (err) {
     res.status(500).json({ message: err.message });
@@ -212,61 +113,44 @@ async function getDatasets(req, res) {
 // Create new research entry
 async function createResearch(req, res) {
   try {
-    const { title, authors, abstract, tags, category, year, doi } = req.body;
+    const { title, authors, abstract, tags, category, year, doi, description, source_name, source_url } = req.body;
 
     if (!title || !authors || !abstract) {
       return res.status(400).json({ message: 'Title, authors, and abstract are required' });
     }
 
-    // Generate unique ID from title
-    const id = title.toLowerCase()
-      .replace(/[^a-z0-9]+/g, '_')
-      .replace(/^_+|_+$/g, '')
-      .substring(0, 50);
+    const slug = generateSlug(title);
 
-    // Create metadata structure matching existing format
-    const metadata = [
-      { "dataset": id },
-      { "Column2": "Name", "Column3": "Source", "Column4": "URL", "Column5": "Description" },
-      {
-        "dataset": id,
-        "Column2": title,
-        "Column3": authors,
-        "Column4": doi || '',
-        "Column5": abstract,
-        "Column6": new Date().toISOString().split('T')[0],
-        "title": title,
-        "description": abstract,
-        "citation": authors,
-        "Column12": year || new Date().getFullYear().toString(),
-        "Column13": doi || '',
-        "year": year || new Date().getFullYear().toString()
-      }
-    ];
-
-    // Add category and tags data
-    if (category) {
-      metadata[2].category = category;
-    }
-    if (tags) {
-      metadata[2].tags = tags;
-    }
-
-    // Save to metadata directory
-    const metadataDir = path.join(__dirname, '../data/metadata');
-    const filePath = path.join(metadataDir, `${id}.json`);
-
-    // Check if file already exists
-    if (await fs.pathExists(filePath)) {
+    // Check if exists
+    const existing = await Research.findOne({ slug });
+    if (existing) {
       return res.status(409).json({ message: 'Research with this title already exists' });
     }
 
-    await fs.writeJSON(filePath, metadata, { spaces: 2 });
+    // Handle authors if string
+    const authorsArray = Array.isArray(authors) ? authors : authors.split(',').map(a => a.trim());
+    const tagsArray = Array.isArray(tags) ? tags : (tags ? tags.split(',').map(t => t.trim()) : []);
+
+    const newResearch = new Research({
+      title,
+      slug,
+      abstract,
+      description: description || abstract,
+      authors: authorsArray,
+      tags: tagsArray,
+      year: year || new Date().getFullYear(),
+      doi,
+      source_name,
+      source_url,
+      // category_id: category // ignoring for now unless we look up ID
+    });
+
+    await newResearch.save();
 
     res.status(201).json({
-      message: 'Research created successfully',
-      id,
-      filePath: `data/metadata/${id}.json`
+      message: 'Research created successfully in MongoDB',
+      id: slug,
+      research: newResearch
     });
   } catch (err) {
     console.error('Error creating research:', err);
@@ -275,4 +159,3 @@ async function createResearch(req, res) {
 }
 
 module.exports = { getAllResearch, getResearch, getAbstract, getContent, getFigures, getDatasets, createResearch };
-

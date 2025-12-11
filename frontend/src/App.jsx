@@ -22,8 +22,8 @@ function App() {
             setCurrentPage('login');
             return;
         }
-        // Check if page requires admin role
-        if (page === 'admin' && user?.role !== 'admin') {
+        // Check if page requires admin role (NOW INCLUDES UPLOAD)
+        if ((page === 'admin' || page === 'upload') && user?.role !== 'admin') {
             return;
         }
         setCurrentPage(page);
@@ -62,7 +62,8 @@ function App() {
             case 'login':
                 return <Login onNavigate={handleNavigate} onLogin={handleLogin} />;
             case 'upload':
-                return user ? <Upload onNavigate={handleNavigate} user={user} /> : <Login onNavigate={handleNavigate} onLogin={handleLogin} />;
+                // RESTRICT TO ADMIN
+                return user?.role === 'admin' ? <Upload onNavigate={handleNavigate} user={user} /> : <Login onNavigate={handleNavigate} onLogin={handleLogin} />;
             case 'admin':
                 return user?.role === 'admin' ? <Admin onNavigate={handleNavigate} user={user} /> : <Home onNavigate={handleNavigate} />;
             default:

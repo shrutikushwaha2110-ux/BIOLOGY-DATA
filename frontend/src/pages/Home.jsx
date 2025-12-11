@@ -22,6 +22,18 @@ export function Home({ onNavigate }) {
     'Global': Globe,
   };
 
+  // State for subscription
+  const [email, setEmail] = useState('');
+
+  const handleSubscribe = (e) => {
+    e.preventDefault();
+    if (!email) return;
+
+    // In a real app, send to backend. For now, just show success.
+    alert(`Thanks for subscribing with ${email}! You will now receive updates.`);
+    setEmail('');
+  };
+
   // Fetch data on component mount
   useEffect(() => {
     async function loadData() {
@@ -231,16 +243,19 @@ export function Home({ onNavigate }) {
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
             Subscribe to receive updates on the latest biological research, data insights, and platform features.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+          <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input
               type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
               className="flex-1 px-4 py-3 rounded-lg text-gray-900"
+              required
             />
-            <button className="px-6 py-3 bg-white text-green-600 hover:bg-gray-100 rounded-lg transition-colors">
+            <button type="submit" className="px-6 py-3 bg-white text-green-600 hover:bg-gray-100 rounded-lg transition-colors">
               Subscribe
             </button>
-          </div>
+          </form>
         </div>
       </section>
     </div>

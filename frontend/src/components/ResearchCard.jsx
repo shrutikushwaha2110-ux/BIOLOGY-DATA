@@ -1,22 +1,22 @@
 import { ArrowRight } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
-export function ResearchCard({ 
-  title, 
-  category, 
-  summary, 
-  thumbnail, 
+export function ResearchCard({
+  title,
+  category,
+  summary,
+  thumbnail,
   tags = [],
   authors,
   year,
-  onClick 
+  onClick
 }) {
   return (
     <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all border border-gray-100 overflow-hidden group">
       {thumbnail && (
         <div className="h-48 overflow-hidden bg-gray-100">
-          <ImageWithFallback 
-            src={thumbnail} 
+          <ImageWithFallback
+            src={thumbnail}
             alt={title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
@@ -45,13 +45,15 @@ export function ResearchCard({
                 {tag}
               </span>
             ))}
+
           </div>
+
         )}
-        <button 
+        <button
           onClick={onClick}
           className="flex items-center text-sm text-green-600 hover:text-green-700 group/btn"
         >
-          View Study 
+          View Study
           <ArrowRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
         </button>
       </div>

@@ -19,7 +19,12 @@ const dataRoutes = require("./routes/dataRoutes");
 
 const app = express();
 
-app.use(cors());
+app.use(cors()); // Allow all origins for debugging
+app.use(express.json()); // Enable JSON body parsing
+app.use((req, res, next) => {
+  console.log(`[${new Date().toISOString()}] ${req.method} ${req.originalUrl}`);
+  next();
+});
 app.use("/api/filters", filtersRoutes);
 app.use("/api/search", searchRoutes);
 app.use("/api/uploads", filesRoutes);

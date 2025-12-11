@@ -89,7 +89,7 @@ export function Header({ currentPage, onNavigate, user, onLogout }) {
             ) : (
               <button
                 onClick={() => onNavigate('login')}
-                className="hidden md:block px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors text-sm"
+                className="px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors text-sm font-medium"
               >
                 Sign In
               </button>

@@ -33,19 +33,7 @@ async function adminLogin(req, res) {
       });
     }
 
-    // For demo: allow any other login attempt as non-admin user
-    const token = jwt.sign(
-      { username, role: 'user' },
-      SECRET_KEY,
-      { expiresIn: '24h' }
-    );
-
-    return res.json({
-      message: 'Login successful (user role)',
-      token,
-      role: 'user',
-      username,
-    });
+    return res.status(401).json({ message: 'Invalid credentials. Only admin access is allowed.' });
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
